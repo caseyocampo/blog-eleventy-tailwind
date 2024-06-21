@@ -1,14 +1,14 @@
 # Getting Started
 
-Step 1 - install npm
+Step 1 - Install npm
 
 `npm install`
 
-Step 2 - start local dev server
+Step 2 - Start local dev server
 
 `npm run serve`
 
-Step 3 - build production environment
+Step 3 - Build production environment
 
 `npm run build`
 
