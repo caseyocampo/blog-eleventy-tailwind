@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="{% if description %}{{ description }}{% else %}Eleventy + Tailwind Starter{% endif %}"
+    />
+    <title>{{ title | default: "Eleventy + Tailwind Starter"}}</title>
+    <link href="/assets/output.css" rel="stylesheet" />
+  </head>
+  <body>
+    <a href="/">Back</a>
+    <article>
+      <h1 class="text-3xl font-black">{{ title }}</h1>
+      <p>Description: {{ description }}</p>
+      <p>{{ content }}</p>
+    </article>
+  </body>
+</html>
