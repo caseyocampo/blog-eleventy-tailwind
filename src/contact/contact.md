@@ -1,7 +1,7 @@
 ---
 layout: page.html
-title: "Sample Page"
-description: "This is a sample page."
+title: "Contact"
+description: "This is a contact page."
 ---
 
 The best things in life are free.
