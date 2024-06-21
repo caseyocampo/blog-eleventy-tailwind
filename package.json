@@ -6,7 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "serve": "rm -rf _site && npx @11ty/eleventy --serve --quiet && npx tailwindcss -i ./src/assets/input.css -o ./_site/assets/output.css --watch",
-    "build": "eleventy"
+    "build": "npx eleventy"
   },
   "author": "Casey Ocampo",
   "license": "ISC",
