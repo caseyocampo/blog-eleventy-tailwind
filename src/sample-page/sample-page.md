@@ -1,5 +1,5 @@
 ---
-layout: page.html
+layout: page.liquid
 title: "Sample Page"
 description: "This is a sample page."
 ---

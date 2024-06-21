@@ -1,6 +1,6 @@
 # Getting Started
 
-Step 1 - install npm:
+Step 1 - install npm
 
 `npm install`
 
