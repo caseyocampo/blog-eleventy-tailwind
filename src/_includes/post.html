@@ -11,9 +11,11 @@
     <link href="/assets/output.css" rel="stylesheet" />
   </head>
   <body>
-    <a href="/">Back</a>
     <article>
-      <h1 class="text-3xl font-black">{{ title }}</h1>
+      <header class="bg-slate-100 py-2">
+        <h1 class="text-3xl font-black">{{ title }}</h1>
+      </header>
+      <a href="/">Back</a>
       <p>Description: {{ description }}</p>
       <p>{{ content }}</p>
     </article>
