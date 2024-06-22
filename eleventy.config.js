@@ -9,6 +9,8 @@ module.exports = function (eleventyConfig) {
     return DateTime.fromJSDate(dateObj).toLocaleString(DateTime.DATE_FULL);
   });
 
+  eleventyConfig.addPassthroughCopy({ "src/_public": "/" });
+
   return {
     dir: {
       input: "src",
