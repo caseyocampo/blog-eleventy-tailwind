@@ -14,8 +14,13 @@ li,
 button,
 span {
   font-family: Inter, system-ui, sans-serif;
+  @apply text-lg;
 }
 
 a {
-  @apply underline;
+  @apply underline text-lg;
+}
+
+.site-title {
+  font-family: "Noto Serif", system-ui, serif;
 }

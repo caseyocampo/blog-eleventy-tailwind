@@ -15,3 +15,8 @@ Step 3 - Build production environment
 ## 100's on all Lighthouse categories
 
 ![lighthouse scores](/src/assets/img/lighthouse.png)
+
+## About the tech used on this site
+
+[eleventy dates](https://www.11ty.dev/docs/dates/)
+[luxon to help format dates](https://moment.github.io/luxon/)
