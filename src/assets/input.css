@@ -2,6 +2,20 @@
 @tailwind components;
 @tailwind utilities;
 
+h1,
+h2,
+h3 {
+  font-family: "Noto Serif", system-ui, serif;
+}
+
+p,
+a,
+li,
+button,
+span {
+  font-family: Inter, system-ui, sans-serif;
+}
+
 a {
   @apply underline;
 }

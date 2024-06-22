@@ -8,13 +8,19 @@
       content="{% if description %}{{ description }}{% else %}Casey Ocampo{% endif %}"
     />
     <title>{{ title | default: 'Casey Ocampo' }}</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
     <link href="/assets/output.css" rel="stylesheet" />
     <link rel="icon" type="image/x-icon" href="/icons/favicon-512.png" />
     <link rel="apple-touch-icon" href="/icons/apple-touch-icon.png" />
   </head>
-  <header class="bg-slate-100 py-2 px-4">
+  <header class="bg-gray-100 py-2 px-4">
     <div class="flex max-w-4xl justify-between items-center m-auto">
-      <p class="text-3xl font-black flex">
+      <p class="text-3xl font-bold flex">
         <a href="/" class="no-underline">Casey Ocampo</a>
       </p>
       <nav>
