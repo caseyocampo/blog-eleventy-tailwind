@@ -1,6 +1,6 @@
 ---
 title: "Sample Post 1"
-description: "This is a sample post 1."
+description: "This is the sample post 1 description."
 tags: "post"
 date: git Last Modified
 ---
