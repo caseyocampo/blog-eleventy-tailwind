@@ -18,7 +18,7 @@
     <link rel="icon" type="image/x-icon" href="/icons/favicon-512.png" />
     <link rel="apple-touch-icon" href="/icons/apple-touch-icon.png" />
   </head>
-  <header class="bg-gray-100 py-2 px-4">
+  <header class="bg-gray-100 py-2 px-4 border">
     <div class="flex max-w-4xl justify-between items-center m-auto">
       <p class="font-bold flex">
         <a href="/" class="no-underline text-3xl site-title">Casey Ocampo</a>
@@ -32,10 +32,12 @@
       </nav>
     </div>
   </header>
-  <main class="p-4">
-    <section class="max-w-4xl mx-auto">{{ content }}</section>
+  <main class="bg-gray-100 p-4">
+    <div class="max-w-4xl mx-auto p-0">{{ content }}</div>
   </main>
-  <footer class="border-t">
-    <p class="text-center py-4">© Casey Ocampo</p>
+  <footer class="bg-gray-100">
+    <section class="max-w-4xl mx-auto">
+      <p class="py-4">© Casey Ocampo</p>
+    </section>
   </footer>
 </html>

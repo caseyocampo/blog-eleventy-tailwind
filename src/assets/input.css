@@ -8,6 +8,18 @@ h3 {
   font-family: "Noto Serif", system-ui, serif;
 }
 
+h1 {
+  @apply text-5xl font-black;
+}
+
+h2 {
+  @apply text-3xl font-black;
+}
+
+h3 {
+  @apply text-xl font-black;
+}
+
 p,
 a,
 li,
@@ -19,6 +31,10 @@ span {
 
 a {
   @apply underline text-lg;
+}
+
+section {
+  @apply py-8 border;
 }
 
 .site-title {
