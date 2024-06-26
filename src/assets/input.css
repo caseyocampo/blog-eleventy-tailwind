@@ -2,22 +2,37 @@
 @tailwind components;
 @tailwind utilities;
 
+:root {
+  --font-heading: "Fira Sans";
+  --font-base: "Fira Sans";
+}
+
+html,
+header,
+body,
+section,
+main,
+article {
+  background-color: #e0d9da;
+}
+
 h1,
 h2,
 h3 {
-  font-family: "Noto Serif", system-ui, serif;
+  font-family: var(--font-heading), system-ui, sans-serif;
+  color: #5f4549;
 }
 
 h1 {
-  @apply text-5xl font-black;
+  @apply text-7xl font-black;
 }
 
 h2 {
-  @apply text-3xl font-black;
+  @apply text-5xl font-black;
 }
 
 h3 {
-  @apply text-xl font-black;
+  @apply text-3xl font-black;
 }
 
 p,
@@ -25,8 +40,9 @@ a,
 li,
 button,
 span {
-  font-family: Inter, system-ui, sans-serif;
-  @apply text-lg;
+  @apply text-xl;
+  font-family: var(--font-base), system-ui, sans-serif;
+  color: #5f4549;
 }
 
 a {
@@ -34,9 +50,9 @@ a {
 }
 
 section {
-  @apply py-8 border;
+  @apply py-8 my-4 border border-black;
 }
 
-.site-title {
-  font-family: "Noto Serif", system-ui, serif;
+p > a.site-title {
+  font-family: var(--font-heading), system-ui, sans-serif;
 }

@@ -3,6 +3,11 @@ module.exports = function (eleventyConfig) {
     watch: ["_site/**/*.css"],
   });
 
+  // limit filter
+  eleventyConfig.addFilter("limit", function (array, limit) {
+    return array.slice(0, limit);
+  });
+
   const { DateTime } = require("luxon");
 
   eleventyConfig.addFilter("postDate", (dateObj) => {
