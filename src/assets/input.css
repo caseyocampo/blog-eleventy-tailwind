@@ -95,7 +95,7 @@ p > a.site-title {
 }
 
 @media (max-width: 640px) {
-  .about-description > h1 {
+  h1 {
     @apply text-5xl;
   }
 
