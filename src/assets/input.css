@@ -49,8 +49,39 @@ a {
   @apply underline text-lg;
 }
 
-section {
-  @apply py-8 my-4 border border-black;
+header {
+  @apply py-6 mb-8;
+  border-bottom: 1px solid #978c8d;
+}
+
+footer {
+  @apply pt-12 pb-8 mt-8;
+  border-top: 1px solid #978c8d;
+}
+
+main section {
+  @apply py-8 my-4 border;
+  border-color: #978c8d;
+}
+
+main article.post {
+  @apply py-8 my-4 border;
+  border-color: #978c8d;
+}
+
+.post h2,
+.page h2 {
+  @apply mt-8 mb-4;
+}
+
+.post p,
+.page p {
+  @apply mb-2;
+}
+
+.post h3,
+.page h3 {
+  @apply mt-8 mb-4;
 }
 
 p > a.site-title {

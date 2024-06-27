@@ -2,11 +2,9 @@
 layout: "layout.html"
 ---
 
-<article>
+<article class="post">
   <h1>{{ title }}</h1>
-  <p>Published on {{ page.date | postDate }}</p>
-  <!-- <p>Last updated {{ page.date | postDate }}</p> -->
-  <a href="/">Back</a>
-  <p>{{ description }}</p>
+  <p class="mb-4">Published on {{ page.date | postDate }}</p>
+  <p class="mb-8">{{ description }}</p>
   <p>{{ content }}</p>
 </article>

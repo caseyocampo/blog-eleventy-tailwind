@@ -6,3 +6,5 @@ permalink: "/about/"
 ---
 
 The best things in life are free.
+
+This is About page content.
