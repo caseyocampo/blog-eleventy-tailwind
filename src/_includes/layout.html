@@ -20,15 +20,22 @@
     <link rel="apple-touch-icon" href="/icons/apple-touch-icon.png" />
   </head>
   <header class="px-4 border">
-    <div class="flex max-w-4xl justify-between items-center m-auto">
-      <p class="font-bold flex">
-        <a href="/" class="no-underline site-title">Casey Ocampo</a>
-      </p>
+    <div class="w-full m-auto sm:max-w-4xl">
       <nav>
-        <ul class="flex gap-4">
-          <li><a href="/about/">About</a></li>
-          <li><a href="/blog/">Blog</a></li>
-          <li><a href="/contact/">Contact</a></li>
+        <div class="flex w-full justify-between">
+          <p class="font-bold">
+            <a href="/" class="no-underline site-title">Casey Ocampo</a>
+          </p>
+          <button id="menu-btn" class="block w-28 rounded-md sm:hidden">
+            Menu
+          </button>
+        </div>
+        <ul id="menu-list" class="hidden mt-8 sm:mt-0 sm:flex sm:gap-4">
+          <li><a href="/about/" class="w-full block mb-4">About</a></li>
+          <li><a href="/blog/" class="w-full block mb-4">Blog</a></li>
+          <li>
+            <a href="/contact/" class="w-full block mb-4">Contact</a>
+          </li>
         </ul>
       </nav>
     </div>
@@ -75,4 +82,5 @@
       <p><a href="/affiliate-disclosure/">Affiliate Disclosure</a></p>
     </section>
   </footer>
+  <script src="/main.js"></script>
 </html>
