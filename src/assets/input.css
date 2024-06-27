@@ -47,6 +47,7 @@ span {
 
 a {
   @apply underline text-lg;
+  color: #5f4549;
 }
 
 header {

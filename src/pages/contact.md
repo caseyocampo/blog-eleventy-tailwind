@@ -6,3 +6,5 @@ permalink: "/contact/"
 ---
 
 The best things in life are free.
+
+This is another sentence in the contact page.
