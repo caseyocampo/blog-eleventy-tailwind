@@ -85,5 +85,10 @@ main article.post {
 }
 
 p > a.site-title {
+  @apply font-black text-4xl;
   font-family: var(--font-heading), system-ui, sans-serif;
+}
+
+.about-description a {
+  @apply text-2xl;
 }
