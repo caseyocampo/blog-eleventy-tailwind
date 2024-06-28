@@ -69,20 +69,6 @@ header {
   border-bottom: 1px solid #978c8d;
 }
 
-header nav ul li a {
-  background: var(--secondary-color);
-  border-bottom-style: inset;
-  border-bottom: 4px solid var(--secondary-color);
-  transition: background 0.25s;
-}
-
-header nav ul li a:hover {
-  background: white;
-  border-bottom-style: inset;
-  border-bottom: 4px solid white;
-  transition: background 0.25s;
-}
-
 footer {
   @apply pt-14 pb-8 mt-12;
   border-top: 1px solid #978c8d;
