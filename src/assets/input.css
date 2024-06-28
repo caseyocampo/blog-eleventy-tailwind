@@ -5,6 +5,8 @@
 :root {
   --font-heading: "Fira Sans";
   --font-base: "Fira Sans";
+  --primary-color: #5f4549;
+  --secondary-color: #e0d9da;
 }
 
 html,
@@ -13,14 +15,14 @@ body,
 section,
 main,
 article {
-  background-color: #e0d9da;
+  background-color: var(--secondary-color);
 }
 
 h1,
 h2,
 h3 {
   font-family: var(--font-heading), system-ui, sans-serif;
-  color: #5f4549;
+  color: var(--primary-color);
 }
 
 h1 {
@@ -42,12 +44,12 @@ button,
 span {
   @apply text-xl;
   font-family: var(--font-base), system-ui, sans-serif;
-  color: #5f4549;
+  color: var(--primary-color);
 }
 
 a {
   @apply underline text-xl;
-  color: #5f4549;
+  color: var(--primary-color);
 }
 
 main a {
@@ -65,6 +67,20 @@ main a:hover {
 header {
   @apply py-6 mb-8;
   border-bottom: 1px solid #978c8d;
+}
+
+header nav ul li a {
+  background: var(--secondary-color);
+  border-bottom-style: inset;
+  border-bottom: 4px solid var(--secondary-color);
+  transition: background 0.25s;
+}
+
+header nav ul li a:hover {
+  background: white;
+  border-bottom-style: inset;
+  border-bottom: 4px solid white;
+  transition: background 0.25s;
 }
 
 footer {
