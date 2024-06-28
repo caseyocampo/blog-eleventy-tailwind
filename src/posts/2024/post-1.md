@@ -3,6 +3,7 @@ title: "Sample Post 1 - oldest"
 description: "This is the sample post 1 description."
 tags: "post"
 date: Last Modified
+permalink: "/posts/post-1/"
 ---
 
 <h2>What goes up</h2>
