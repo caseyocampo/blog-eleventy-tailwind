@@ -65,7 +65,7 @@ main a:hover {
 }
 
 header {
-  @apply py-6 mb-8;
+  @apply pt-8 pb-2 mb-8;
   border-bottom: 1px solid #978c8d;
 }
 
@@ -93,7 +93,7 @@ main article.post {
 li,
 .page p,
 li {
-  @apply mb-2;
+  @apply mb-3;
 }
 
 .post h3,
@@ -121,6 +121,10 @@ p > a.site-title {
 
   h3 {
     @apply text-2xl;
+  }
+
+  header {
+    @apply pt-6 pb-4;
   }
 
   .about-description p,

@@ -16,7 +16,7 @@ module.exports = function (eleventyConfig) {
 
   eleventyConfig.addPassthroughCopy({ "src/_public": "/" });
   eleventyConfig.addPassthroughCopy({ "src/assets/js": "/" });
-  eleventyConfig.addPassthroughCopy({ "src/posts/img": "/media/img" });
+  eleventyConfig.addPassthroughCopy({ "src/posts/img": "/posts/img" });
 
   eleventyConfig.addFilter("markdown", function (value) {
     let markdown = require("markdown-it")({
