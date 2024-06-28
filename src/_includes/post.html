@@ -4,7 +4,9 @@ layout: "layout.html"
 
 <article class="post">
   <h1>{{ title }}</h1>
-  <p class="mb-4">Published on {{ page.date | postDate }}</p>
-  <p class="mb-8">{{ description }}</p>
+  <p>Published on {{ page.date | postDate }}</p>
+  <div class="mb-12">
+    <p>{{ description }}</p>
+  </div>
   <p>{{ content }}</p>
 </article>

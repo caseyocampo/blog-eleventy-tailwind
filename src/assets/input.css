@@ -99,6 +99,14 @@ p > a.site-title {
     @apply text-5xl;
   }
 
+  h2 {
+    @apply text-3xl;
+  }
+
+  h3 {
+    @apply text-2xl;
+  }
+
   .about-description p,
   .about-description a {
     @apply text-xl;
