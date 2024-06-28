@@ -50,6 +50,18 @@ a {
   color: #5f4549;
 }
 
+main a {
+  border-bottom-style: inset;
+  border-bottom: 4px solid white;
+}
+
+main a:hover {
+  background: white;
+  border-bottom-style: inset;
+  border-bottom: 4px solid white;
+  transition: background 0.25s;
+}
+
 header {
   @apply py-6 mb-8;
   border-bottom: 1px solid #978c8d;
@@ -76,7 +88,9 @@ main article.post {
 }
 
 .post p,
-.page p {
+li,
+.page p,
+li {
   @apply mb-2;
 }
 
