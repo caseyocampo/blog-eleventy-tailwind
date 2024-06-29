@@ -1,6 +1,6 @@
 ---
 title: "About"
-description: "Here's a bit more about me, my background, and where I'm at now."
+description: "Here's a bit more about me, my professional background, and where I'm at now."
 tags: "page"
 permalink: "/about/"
 ---

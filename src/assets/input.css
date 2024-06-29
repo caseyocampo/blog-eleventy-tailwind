@@ -67,7 +67,8 @@ main {
 }
 
 main section {
-  @apply py-8 my-8 z-10 bg-transparent;
+  @apply py-12 my-12 z-10 bg-transparent;
+  /* @apply border border-black; */
 }
 
 section,
