@@ -12,4 +12,4 @@ Quincy Larson (the creator of freeCodeCamp) saw that I tweeted about how I used 
 
 With great respect, I humbly accepted.
 
-You can read it here: <a href="https://forum.freecodecamp.org/t/how-i-learned-to-code-and-got-my-first-developer-job-and-how-i-m-progressing-now/475142" target="_blank">https://forum.freecodecamp.org/t/how-i-learned-to-code-and-got-my-first-developer-job-and-how-i-m-progressing-now/475142 <span alt="opens in a new tab">&#x2197;</span></a>
+You can read it on the <a href="https://forum.freecodecamp.org/t/how-i-learned-to-code-and-got-my-first-developer-job-and-how-i-m-progressing-now/475142" target="_blank">freeCodeCamp forum <span aria-label="- opens in a new tab">&#x2197;</span></a>
