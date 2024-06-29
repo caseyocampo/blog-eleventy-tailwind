@@ -57,7 +57,7 @@ a {
 
 header {
   @apply pt-8 pb-2 mb-8;
-  border-bottom: 1px solid #978c8d;
+  border-bottom: 1px solid #c3abac;
 }
 
 main {
@@ -67,8 +67,7 @@ main {
 }
 
 main section {
-  @apply py-8 my-8 border z-10 bg-transparent;
-  border-color: #978c8d;
+  @apply py-8 my-8 z-10 bg-transparent;
 }
 
 section,
@@ -91,7 +90,7 @@ main a:hover {
 
 footer {
   @apply pt-14 pb-8 mt-12;
-  border-top: 1px solid #978c8d;
+  border-top: 1px solid #c3abac;
 }
 
 pre {
