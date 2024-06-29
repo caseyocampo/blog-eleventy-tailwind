@@ -135,7 +135,7 @@ p > a.site-title {
 }
 
 .post-img {
-  @apply mb-6;
+  @apply mb-6 rounded-md w-full;
   max-width: 500px;
 }
 
