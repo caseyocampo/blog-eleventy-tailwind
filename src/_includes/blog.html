@@ -7,7 +7,9 @@ layout: "layout.html"
   <p>{{ description }}</p>
 </section>
 
-<section>{{ content }}</section>
+{% if content %}
+<div>{{ content }}</div>
+{% endif %}
 
 <section>
   <h2 class="mb-4">All Posts</h2>
