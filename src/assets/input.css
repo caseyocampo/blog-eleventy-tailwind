@@ -10,6 +10,8 @@
   --code-bg: #d3c7c8;
 }
 
+/* Base styles */
+
 html,
 header,
 body,
@@ -48,6 +50,39 @@ span {
   color: var(--primary-color);
 }
 
+a {
+  @apply underline text-xl;
+  color: var(--primary-color);
+}
+
+header {
+  @apply pt-8 pb-2 mb-8;
+  border-bottom: 1px solid #978c8d;
+}
+
+main section {
+  @apply py-8 my-8 border;
+  border-color: #978c8d;
+}
+
+main a {
+  border-bottom-style: inset;
+  border-bottom: 4px solid white;
+  box-shadow: inset 0 -4px 0 white;
+}
+
+main a:hover {
+  background: white;
+  border-bottom-style: inset;
+  border-bottom: 4px solid white;
+  transition: background 0.25s;
+}
+
+footer {
+  @apply pt-14 pb-8 mt-12;
+  border-top: 1px solid #978c8d;
+}
+
 pre {
   @apply mb-6 rounded-md px-1;
   background: var(--code-bg);
@@ -70,38 +105,7 @@ code {
   display: inline-block;
 }
 
-a {
-  @apply underline text-xl;
-  color: var(--primary-color);
-}
-
-main a {
-  border-bottom-style: inset;
-  border-bottom: 4px solid white;
-  box-shadow: inset 0 -4px 0 white;
-}
-
-main a:hover {
-  background: white;
-  border-bottom-style: inset;
-  border-bottom: 4px solid white;
-  transition: background 0.25s;
-}
-
-header {
-  @apply pt-8 pb-2 mb-8;
-  border-bottom: 1px solid #978c8d;
-}
-
-footer {
-  @apply pt-14 pb-8 mt-12;
-  border-top: 1px solid #978c8d;
-}
-
-main section {
-  @apply py-8 my-4 border;
-  border-color: #978c8d;
-}
+/* Page and Post specific styles */
 
 main article.post {
   @apply py-8 my-4 border;
@@ -114,7 +118,6 @@ main article.post {
 }
 
 .post p,
-li,
 .page p,
 li {
   @apply mb-3;
@@ -124,6 +127,8 @@ li {
 .page h3 {
   @apply mt-8 mb-4;
 }
+
+/* Homepage styles */
 
 p > a.site-title {
   @apply font-black text-4xl;
@@ -138,6 +143,8 @@ p > a.site-title {
   @apply mb-6 rounded-md w-full;
   max-width: 500px;
 }
+
+/* Responsive styles */
 
 @media (max-width: 640px) {
   h1 {
