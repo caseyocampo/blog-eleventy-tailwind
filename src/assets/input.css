@@ -60,9 +60,20 @@ header {
   border-bottom: 1px solid #978c8d;
 }
 
+main {
+  background-image: url("/img/bg-motif.svg");
+  background-repeat: no-repeat;
+  background-position: top right;
+}
+
 main section {
-  @apply py-8 my-8 border;
+  @apply py-8 my-8 border z-10 bg-transparent;
   border-color: #978c8d;
+}
+
+section,
+article {
+  @apply bg-transparent;
 }
 
 main a {
@@ -84,7 +95,7 @@ footer {
 }
 
 pre {
-  @apply mb-6 rounded-md px-1;
+  @apply mb-6 rounded-md px-1 border-t-8 border-[var(--primary-color)];
   background: var(--code-bg);
   color: var(--primary-color);
   display: inline-block;
@@ -93,7 +104,7 @@ pre {
 }
 
 pre code {
-  @apply text-lg py-1 px-2;
+  @apply text-lg py-4 px-2;
   font-family: monospace;
   text-wrap: wrap;
 }
@@ -105,10 +116,18 @@ code {
   display: inline-block;
 }
 
+article ul {
+  list-style-type: disc;
+  list-style-position: outside;
+  margin-left: 1rem;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
 /* Page and Post specific styles */
 
 main article.post {
-  @apply py-8 my-4 border;
+  @apply py-8 my-4 border bg-transparent;
   border-color: #978c8d;
 }
 
