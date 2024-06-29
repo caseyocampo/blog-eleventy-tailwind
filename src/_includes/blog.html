@@ -22,8 +22,10 @@ layout: "layout.html"
   {% assign all_posts = collections.post | reverse %}
     {% for post in all_posts %} {% assign currentdate = post.date | date:
     "%Y" %} {% if currentdate != date %}
-    <h3 id="y{{currentdate}}" class="mb-4 mt-12">{{ currentdate }}</h2>
+<h3 id="y{{currentdate}}" class="mb-4 mt-12">{{ currentdate }}</h2>
     {% assign date = currentdate %} {% endif %}
-    <li><a href="{{ post.url }}">{{ post.data.title }}</a></li>
+    <ul>
+        <li><a href="{{ post.url }}">{{ post.data.title }}</a></li>
+    </ul>
     {% endfor %}
 </section>
