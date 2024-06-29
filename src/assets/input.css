@@ -95,7 +95,7 @@ footer {
 }
 
 pre {
-  @apply mb-6 rounded-md px-1 border-t-8 border-[var(--primary-color)];
+  @apply mb-4 rounded-md px-1 border-t-8 border-[var(--primary-color)];
   background: var(--code-bg);
   color: var(--primary-color);
   display: inline-block;
@@ -156,6 +156,12 @@ p > a.site-title {
 
 .about-description a {
   @apply text-2xl;
+}
+
+article img,
+article .post img {
+  @apply mb-6 rounded-md w-full;
+  max-width: 500px;
 }
 
 .post-img {

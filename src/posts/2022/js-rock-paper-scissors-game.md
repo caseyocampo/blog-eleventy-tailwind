@@ -10,12 +10,6 @@ This post details how I built the classic childhood game Rock, Paper, Scissors. 
 
 The following sections will describe the HTML, CSS, and JavaScript files I used to create the game. More specifically, I’ll be covering semantic markup, media features in media queries, and an overview of JavaScript methods and features used.
 
-Jump to a section.
-
-The HTML Structure
-How I Made It Responsive
-JavaScript Features and Methods Used
-
 **TL; want to play the game**: If you’re interested in playing the game, you can check it out on its <a href="https://caseyocampo.github.io/js-rock-paper-scissors/" target="_blank">GitHub page {% newtab %}</a>.
 
 ## The HTML Structure
