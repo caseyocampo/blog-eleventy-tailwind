@@ -10,4 +10,4 @@ permalink: "/posts/svg-export-settings-custom-css-animations/"
 
 In February of 2019, I wrote an article on SVG Export Settings for Custom CSS Animations using Adobe Illustrator and CSS.
 
-Check it out on Envy Lab's Medium blog: <a href="https://blog.envylabs.com/svg-export-settings-for-custom-css-animations-adobe-illustrator-e106f77c6cb5" target="_blank">https://blog.envylabs.com/svg-export-settings-for-custom-css-animations-adobe-illustrator-e106f77c6cb5 <span alt="opens in a new tab">&#x2197;</span></a>.
+Check it out on Envy Lab's Medium blog: <a href="https://blog.envylabs.com/svg-export-settings-for-custom-css-animations-adobe-illustrator-e106f77c6cb5" target="_blank">https://blog.envylabs.com/svg-export-settings-for-custom-css-animations-adobe-illustrator-e106f77c6cb5 <span alt="opens in a new tab">&#x2197;</span></a>
