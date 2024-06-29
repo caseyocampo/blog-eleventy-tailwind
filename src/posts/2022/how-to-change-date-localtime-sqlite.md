@@ -3,7 +3,7 @@ title: "How to Change the Date and Time to Local Time in SQLite and PDO"
 description:
 tags: "post"
 date: "2022-05-08"
-permalink: "/how-to-change-date-localtime-sqlite/"
+permalink: "/posts/how-to-change-date-localtime-sqlite/"
 ---
 
 Getting the current time and date in SQLite can be a little tricky.

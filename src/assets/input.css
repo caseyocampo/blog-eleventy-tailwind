@@ -161,12 +161,12 @@ p > a.site-title {
 article img,
 article .post img {
   @apply mb-6 rounded-md w-full;
-  max-width: 500px;
+  max-width: 600px;
 }
 
 .post-img {
   @apply mb-6 rounded-md w-full;
-  max-width: 500px;
+  max-width: 600px;
 }
 
 /* Responsive styles */
