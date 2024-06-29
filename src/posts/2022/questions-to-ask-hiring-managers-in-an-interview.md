@@ -3,7 +3,7 @@ title: "Questions to Ask Hiring Managers in a Technical Interview"
 description:
 tags: "post"
 date: "2022-10-08"
-permalink: "/questions-to-ask-hiring-managers-in-an-interview/"
+permalink: "/posts/questions-to-ask-hiring-managers-in-an-interview/"
 ---
 
 It’s good practice to have a list of questions ready before an interview happens.
