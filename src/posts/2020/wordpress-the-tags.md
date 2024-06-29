@@ -62,7 +62,7 @@ Ok, so remember, this is the syntax for the_tags function:
 
 Now let’s break it down.
 
-Graphic made using Excalidraw
+Here's a neat graphic I made using Excalidraw:
 
 <img src="/posts/img/wordpress-the-tags.webp" alt="A visual example of how the_tags function works" class="post-img">
 
