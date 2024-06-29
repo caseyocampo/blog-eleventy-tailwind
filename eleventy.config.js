@@ -12,6 +12,9 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addPassthroughCopy({
     "src/posts/2023/img": "/posts/2023/img",
   });
+  eleventyConfig.addPassthroughCopy({
+    "src/posts/2024/img": "/posts/2024/img",
+  });
 
   // post or page limit filter
   eleventyConfig.addFilter("limit", function (array, limit) {

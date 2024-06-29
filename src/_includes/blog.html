@@ -11,9 +11,9 @@ layout: "layout.html"
 <div>{{ content }}</div>
 {% endif %}
 
-<section>
+<section class="blog">
   <h2 class="mb-4">All Posts</h2>
-  <!-- {% assign all_posts = collections.post | reverse %}
+  <!--  original {% assign all_posts = collections.post | reverse %}
   <ul class="list-disc list-inside">
     {% for post in all_posts | reverse %}
     <li>
@@ -21,13 +21,26 @@ layout: "layout.html"
     </li>
     {% endfor %}
   </ul> -->
+
+  <!-- don't delete {% assign all_posts = collections.post | reverse %} {% for post
+  in all_posts %} {% assign currentdate = post.date | date: "%Y" %} {% if
+  currentdate != date %}
+  <h3 id="y{{currentdate}}" class="mb-4 mt-12">{{ currentdate }}</h3>
+  {% assign date = currentdate %} {% endif %}
+  <ul>
+    <li><a href="{{ post.url }}">{{ post.data.title }}</a></li>
+  </ul>
+  {% endfor %} -->
+
   {% assign all_posts = collections.post | reverse %}
-    {% for post in all_posts %} {% assign currentdate = post.date | date:
-    "%Y" %} {% if currentdate != date %}
-<h3 id="y{{currentdate}}" class="mb-4 mt-12">{{ currentdate }}</h2>
+  <ul>
+    {% for post in all_posts %} {% assign currentdate = post.date | date: "%Y"
+    %} {% if currentdate != date %}
+    <li class="list-none -ml-4">
+      <h3 id="y{{currentdate}}" class="mt-12">{{ currentdate }}</h3>
+    </li>
     {% assign date = currentdate %} {% endif %}
-    <ul>
-        <li><a href="{{ post.url }}">{{ post.data.title }}</a></li>
-    </ul>
+    <li><a href="{{ post.url }}">{{ post.data.title }}</a></li>
     {% endfor %}
+  </ul>
 </section>
