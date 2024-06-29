@@ -17,6 +17,12 @@ module.exports = function (eleventyConfig) {
     );
   });
 
+  // display just the year
+  eleventyConfig.addFilter("justYear", (dateString) => {
+    dateObj = new Date(dateString);
+    return DateTime.fromJSDate(dateObj, { zone: "utc" }).toFormat("yyyy");
+  });
+
   eleventyConfig.addPassthroughCopy({ "src/_public": "/" });
   eleventyConfig.addPassthroughCopy({ "src/assets/js": "/" });
   eleventyConfig.addPassthroughCopy({ "src/posts/img": "/posts/img" });
