@@ -3,14 +3,24 @@ module.exports = function (eleventyConfig) {
     watch: ["_site/**/*.css"],
   });
 
+  eleventyConfig.addPassthroughCopy({ "src/_public": "/" });
+  eleventyConfig.addPassthroughCopy({ "src/assets/js": "/" });
+  eleventyConfig.addPassthroughCopy({ "src/posts/img": "/posts/img" });
+  eleventyConfig.addPassthroughCopy({
+    "src/posts/2022/img": "/posts/2022/img",
+  });
+  eleventyConfig.addPassthroughCopy({
+    "src/posts/2023/img": "/posts/2023/img",
+  });
+
   // post or page limit filter
   eleventyConfig.addFilter("limit", function (array, limit) {
     return array.slice(0, limit);
   });
 
+  // fix day behind date pitfall
   const { DateTime } = require("luxon");
 
-  // fix day behind date pitfall
   eleventyConfig.addFilter("postDate", (dateObj) => {
     return DateTime.fromJSDate(dateObj, { zone: "utc" }).toLocaleString(
       DateTime.DATE_FULL
@@ -23,16 +33,7 @@ module.exports = function (eleventyConfig) {
     return DateTime.fromJSDate(dateObj, { zone: "utc" }).toFormat("yyyy");
   });
 
-  eleventyConfig.addPassthroughCopy({ "src/_public": "/" });
-  eleventyConfig.addPassthroughCopy({ "src/assets/js": "/" });
-  eleventyConfig.addPassthroughCopy({ "src/posts/img": "/posts/img" });
-  eleventyConfig.addPassthroughCopy({
-    "src/posts/2022/img": "/posts/2022/img",
-  });
-  eleventyConfig.addPassthroughCopy({
-    "src/posts/2023/img": "/posts/2023/img",
-  });
-
+  // add custom markdown filter
   eleventyConfig.addFilter("markdown", function (value) {
     let markdown = require("markdown-it")({
       html: true,

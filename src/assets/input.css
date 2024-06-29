@@ -125,6 +125,10 @@ article ul {
   margin-bottom: 2rem;
 }
 
+blockquote {
+  @apply ml-8 my-8;
+}
+
 /* Page and Post specific styles */
 
 main article.post {
