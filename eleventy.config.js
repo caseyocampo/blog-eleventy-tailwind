@@ -34,6 +34,11 @@ module.exports = function (eleventyConfig) {
     return markdown.render(value);
   });
 
+  // opens in a new tab shortcode
+  eleventyConfig.addShortcode("newtab", function newtab() {
+    return `<span aria-label="- opens in a new tab">&#x2197;</span>`;
+  });
+
   return {
     dir: {
       input: "src",
