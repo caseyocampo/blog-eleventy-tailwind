@@ -95,11 +95,12 @@ footer {
 }
 
 pre {
-  @apply mb-4 rounded-md px-1 border-t-8 border-[var(--primary-color)];
+  @apply mb-4 rounded-md px-1 border-t-8 border-[#442f32];
   background: var(--code-bg);
   color: var(--primary-color);
   display: inline-block;
   overflow-x: scroll;
+  width: 100%;
   -webkit-overflow-scrolling: touch;
 }
 
