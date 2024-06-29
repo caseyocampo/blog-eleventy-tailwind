@@ -1,6 +1,6 @@
 ---
 layout: blog.html
 title: "Blog"
-description: "I like to write about about tech, progress stories, and life lessons."
+description: "I write about about tech, hobbies, and life lessons. I also like to write about <a href='/now/'>what I'm up to now </a>."
 permalink: "/blog/"
 ---
