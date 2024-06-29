@@ -10,8 +10,11 @@ module.exports = function (eleventyConfig) {
 
   const { DateTime } = require("luxon");
 
+  // fix day behind date pitfall
   eleventyConfig.addFilter("postDate", (dateObj) => {
-    return DateTime.fromJSDate(dateObj).toLocaleString(DateTime.DATE_FULL);
+    return DateTime.fromJSDate(dateObj, { zone: "utc" }).toLocaleString(
+      DateTime.DATE_FULL
+    );
   });
 
   eleventyConfig.addPassthroughCopy({ "src/_public": "/" });

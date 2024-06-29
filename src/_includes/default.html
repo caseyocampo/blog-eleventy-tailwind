@@ -13,7 +13,7 @@ layout: layout.html
 
   {% assign recent_posts = collections.post | reverse %}
   <ul class="mt-12 list-disc list-inside">
-    {% for post in recent_posts limit:2 %}
+    {% for post in recent_posts limit:3 %}
     <li>
       <a href="{{ post.url }}">{{ post.data.title }}</a>
     </li>

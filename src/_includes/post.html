@@ -4,9 +4,11 @@ layout: "layout.html"
 
 <article class="post">
   <h1>{{ title }}</h1>
-  <p>Published on {{ page.date | postDate }}</p>
+  <p class="italic">Published on {{ page.date | postDate }}</p>
   <div class="mb-12">
+    {% if description %}
     <p>{{ description }}</p>
+    {% endif %}
   </div>
   <p>{{ content }}</p>
 </article>
