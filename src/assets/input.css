@@ -161,7 +161,7 @@ li {
 /* Homepage styles */
 
 p > a.site-title {
-  @apply font-black text-4xl;
+  @apply font-black text-5xl;
   font-family: var(--font-heading), system-ui, sans-serif;
 }
 
@@ -211,5 +211,9 @@ article .post img {
 
   .header-border {
     border-bottom: 1px solid #c3abac;
+  }
+
+  p > a.site-title {
+    @apply text-4xl;
   }
 }
