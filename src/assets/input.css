@@ -78,8 +78,8 @@ article {
 
 main a {
   border-bottom-style: inset;
-  border-bottom: 4px solid white;
-  box-shadow: inset 0 -4px 0 white;
+  /* border-bottom: 4px solid white; */
+  box-shadow: inset 0 -2px 0 white;
 }
 
 main a:hover {
@@ -207,5 +207,9 @@ article .post img {
   article ul,
   .blog ul {
     margin-left: 1.0125rem;
+  }
+
+  .header-border {
+    border-bottom: 1px solid #c3abac;
   }
 }
