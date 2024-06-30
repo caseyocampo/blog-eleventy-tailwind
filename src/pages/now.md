@@ -18,4 +18,4 @@ That said, I do still enjoy reading about what people are up to! So here's a bit
 - Watching _all_ of the Aliens movies with my partner Jeff
 - Learning more about [Eleventy](https://www.11ty.dev/)
 
-_This page was inspired by <a href="https://nownownow.com/about" target="_blank">Derek Sivers’ nownownow.com {% newtab %}</a> and having a friendly reminder that this "now" page concept exists from <a href="https://www.tempertemper.net/now" target="_blank">tempertemper.net's {% newtab %}</a>._
+_This page was inspired by <a href="https://nownownow.com/about" target="_blank">Derek Sivers’ nownownow.com {% newtab %}</a>. I first learned about it from reading his books. Then, I stumbled upon <a href="https://www.tempertemper.net/now" target="_blank">tempertemper.net 's "now" page {% newtab %}</a> which I took as a friendly reminder to create make one myself!_

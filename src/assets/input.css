@@ -57,7 +57,7 @@ a {
 
 header {
   @apply pt-8 pb-2 mb-8;
-  border-bottom: 1px solid #c3abac;
+  /* border-bottom: 1px solid #c3abac; */
 }
 
 main {
@@ -138,8 +138,8 @@ blockquote {
 /* Page and Post specific styles */
 
 main article.post {
-  @apply py-8 my-4 border bg-transparent;
-  border-color: #978c8d;
+  @apply py-8 my-4 bg-transparent;
+  /* border-color: #978c8d; */
 }
 
 .post h2,
