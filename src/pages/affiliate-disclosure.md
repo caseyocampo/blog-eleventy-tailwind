@@ -1,6 +1,6 @@
 ---
 title: "Affiliate Disclosure"
-description: "This is a Affiliate Disclosure page description."
+description:
 tags: "page"
 permalink: "/affiliate-disclosure/"
 ---

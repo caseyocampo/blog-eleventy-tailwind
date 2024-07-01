@@ -1,6 +1,6 @@
 ---
 title: "Accessibility Statement"
-description: "This is an Accessibility Statement page description."
+description:
 tags: "page"
 permalink: "/accessibility-statement/"
 ---
