@@ -1,6 +1,6 @@
 ---
 title: "What I'm up to now"
-description: "I've unsubscribed to using social media in favor of spending more time outside, being with friends and family, reading books, learning stuff, working on side projects, and sleeping!"
+description: "I've unsubscribed from using social media in favor of spending more time outside, being with friends and family, reading books, learning stuff, working on side projects, and sleeping!"
 tags: "page"
 permalink: "/now/"
 ---
@@ -12,10 +12,10 @@ I don't have social media. I kind of got fed up with the ads, phoniness, and slo
 That said, I do still enjoy reading about what people are up to! So here's a bit of what's going on in my life _right now_:
 
 - Taking up a new hobby, mountain biking, for the last few months
-- Upgrading my 2023 Specialized Rockhopper Sport - so far I've added a dropper post, new stem and carbon stem spacers, handlebars, grips, and tires
+- Upgrading my 2023 Specialized Rockhopper Sport bike - so far I've added a dropper post, new stem and carbon stem spacers, handlebars, grips, and most recently, tires and a new fork
 - Working on perfecting thin, crispy homemade pizza made with a high protein dough mixture of vital wheat gluten and King Arthur flour
 - Getting more steps in with my new walking pad
 - Watching _all_ of the Aliens movies with my partner Jeff
 - Learning more about [Eleventy](https://www.11ty.dev/)
 
-_This page was inspired by <a href="https://nownownow.com/about" target="_blank">Derek Sivers’ nownownow.com {% newtab %}</a>. I first learned about it from reading his books. Then, I stumbled upon <a href="https://www.tempertemper.net/now" target="_blank">tempertemper.net 's "now" page {% newtab %}</a> which I took as a friendly reminder to create make one myself!_
+_This page was inspired by <a href="https://nownownow.com/about" target="_blank">Derek Sivers’ nownownow.com {% newtab %}</a>. I first learned about it from reading his books and blog. Then, I stumbled upon <a href="https://www.tempertemper.net/now" target="_blank">tempertemper.net 's "now" page {% newtab %}</a> which I took as a friendly reminder to make one myself!_
