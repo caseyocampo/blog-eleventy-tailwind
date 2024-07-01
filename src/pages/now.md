@@ -1,15 +1,17 @@
 ---
 title: "What I'm up to now"
-description: "I've unsubscribed from using social media in favor of spending more time outside, being with friends and family, reading books, learning stuff, working on side projects, and sleeping!"
+description:
 tags: "page"
 permalink: "/now/"
 ---
 
 _Last updated June 29, 2024_
 
-I don't have social media. I kind of got fed up with the ads, phoniness, and slot-machine-likeness of it all (see Cal Newport's post <a href="https://calnewport.com/on-digital-minimalism/" target="_blank">On Digital Minimalism {% newtab %}</a> or his Ted Talk <a href="https://www.youtube.com/watch?v=3E7hkPZ-HTk" target="_blank">Quit social media {% newtab %}</a>).
+## What's the deal with this "now" page?
 
-That said, I do still enjoy reading about what people are up to! So here's a bit of what's going on in my life _right now_:
+Well, I don't have social media. I got fed up with the ads, phoniness, and slot-machine-likeness of it all (see Cal Newport's post <a href="https://calnewport.com/on-digital-minimalism/" target="_blank">On Digital Minimalism {% newtab %}</a> or his Ted Talk <a href="https://www.youtube.com/watch?v=3E7hkPZ-HTk" target="_blank">Quit social media {% newtab %}</a>).
+
+Over the last 4 years, I've stepped away from using social media in favor of spending more time outside, being with friends and family, reading books, learning stuff, working on side projects, and sleeping! That said, I do still enjoy reading about what people are up to! So here's a bit of what's going on in my life _right now_:
 
 - Taking up a new hobby, mountain biking, for the last few months
 - Upgrading my 2023 Specialized Rockhopper Sport bike - so far I've added a dropper post, new stem and carbon stem spacers, handlebars, grips, and most recently, tires and a new fork
