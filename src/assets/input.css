@@ -70,6 +70,10 @@ main section {
   /* @apply border border-black; */
 }
 
+img {
+  height: auto;
+}
+
 section,
 article {
   @apply bg-transparent;
