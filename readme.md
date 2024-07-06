@@ -20,3 +20,4 @@ Step 3 - Build production environment
 
 [eleventy dates](https://www.11ty.dev/docs/dates/)
 [luxon to help format dates](https://moment.github.io/luxon/)
+[html-minifier](https://www.npmjs.com/package/html-minifier)

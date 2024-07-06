@@ -3,6 +3,8 @@ module.exports = function (eleventyConfig) {
     watch: ["_site/**/*.css"],
   });
 
+  const htmlmin = require("html-minifier");
+
   eleventyConfig.addPassthroughCopy({ "src/_public": "/" });
   eleventyConfig.addPassthroughCopy({ "src/assets/js": "/" });
   eleventyConfig.addPassthroughCopy({ "src/posts/img": "/posts/img" });
@@ -14,6 +16,22 @@ module.exports = function (eleventyConfig) {
   });
   eleventyConfig.addPassthroughCopy({
     "src/posts/2024/img": "/posts/2024/img",
+  });
+
+  // minify HTML output
+  eleventyConfig.addTransform("htmlmin", function (content) {
+    if ((this.page.outputPath || "").endsWith(".html")) {
+      let minified = htmlmin.minify(content, {
+        useShortDoctype: true,
+        removeComments: true,
+        collapseWhitespace: true,
+      });
+
+      return minified;
+    }
+
+    // If not an HTML output, return content as-is
+    return content;
   });
 
   // post or page limit filter
