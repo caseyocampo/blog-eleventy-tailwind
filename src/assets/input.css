@@ -2,16 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --font-heading: "FiraSansBlack";
-  --font-base: "FiraSans";
-  --primary-color: #5f4549;
-  --secondary-color: #e0d9da;
-  --code-bg: #d3c7c8;
-}
-
-/* Base styles */
-
 @font-face {
   font-family: "FiraSansBlack";
   font-style: normal;
@@ -58,6 +48,14 @@
   font-weight: 400;
   font-display: swap;
   src: url("/assets/fonts/FiraSans-Italic.ttf");
+}
+
+:root {
+  --font-heading: "FiraSansBlack";
+  --font-base: "FiraSans";
+  --primary-color: #5f4549;
+  --secondary-color: #e0d9da;
+  --code-bg: #d3c7c8;
 }
 
 html,
