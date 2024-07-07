@@ -17,6 +17,7 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addPassthroughCopy({
     "src/posts/2024/img": "/posts/2024/img",
   });
+  eleventyConfig.addPassthroughCopy({ "src/assets/fonts": "/assets/fonts" });
 
   // minify HTML output
   eleventyConfig.addTransform("htmlmin", function (content) {

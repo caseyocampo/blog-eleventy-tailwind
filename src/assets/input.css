@@ -3,14 +3,56 @@
 @tailwind utilities;
 
 :root {
-  --font-heading: "Fira Sans";
-  --font-base: "Fira Sans";
+  --font-heading: "FiraSansBlack";
+  --font-base: "FiraSans";
   --primary-color: #5f4549;
   --secondary-color: #e0d9da;
   --code-bg: #d3c7c8;
 }
 
 /* Base styles */
+
+@font-face {
+  font-family: "FiraSansBlack";
+  font-style: normal;
+  font-weight: 900;
+  src: url("/assets/fonts/FiraSans-Black.ttf");
+}
+
+@font-face {
+  font-family: "FiraSansBlack";
+  font-style: italic;
+  font-weight: 900;
+  src: url("/assets/fonts/FiraSans-Black.ttf");
+}
+
+@font-face {
+  font-family: "FiraSans";
+  font-style: normal;
+  font-weight: 400;
+  src: url("/assets/fonts/FiraSans-Regular.ttf");
+}
+
+@font-face {
+  font-family: "FiraSans";
+  font-style: normal;
+  font-weight: 700;
+  src: url("/assets/fonts/FiraSans-Bold.ttf");
+}
+
+@font-face {
+  font-family: "FiraSans";
+  font-style: italic;
+  font-weight: 700;
+  src: url("/assets/fonts/FiraSans-BoldItalic.ttf");
+}
+
+@font-face {
+  font-family: "FiraSans";
+  font-style: italic;
+  font-weight: 400;
+  src: url("/assets/fonts/FiraSans-Italic.ttf");
+}
 
 html,
 header,
