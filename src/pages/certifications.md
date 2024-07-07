@@ -1,6 +1,6 @@
 ---
 title: "Certifications"
-description: "Here is a non-exhaustive list of courses and certifications I've completed."
+description: "A non-exhaustive list of courses and certifications I've completed."
 tags: "page"
 permalink: "/certifications/"
 ---

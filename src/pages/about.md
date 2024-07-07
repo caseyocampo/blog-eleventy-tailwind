@@ -9,11 +9,11 @@ I work as a full-time Accessibility Engineer and I love it. I also enjoy learnin
 
 When I’m not working my day job or coding side projects, I like to keep my brain and body active.
 
-<img src="/img/casey-about.webp" alt="Me dripping in sweat after completing my first 5k" style="max-width: 300px">
+<img src="/img/casey-about.webp" alt="Me dripping in sweat after completing my first 5k" style="max-width: 350px" class="shadow-md">
 
 My hobbies include reading, doing yoga, running, and learning guitar. I also enjoy adventuring to random parks and places with my partner. We’ve traveled to most cities along Florida’s east coast and have gone out of state to Nevada and Texas.
 
-<img src="/img/casey-and-jeff-sebastian.webp" alt="Casey and her partner Jeff on an island in Sebastian" style="max-width: 300px">
+<img src="/img/casey-and-jeff-sebastian.webp" alt="Casey and her partner Jeff on an island in Sebastian" style="max-width: 350px" class="shadow-md max-w-80	">
 
 ## My background
 

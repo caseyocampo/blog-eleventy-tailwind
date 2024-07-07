@@ -18,6 +18,6 @@ Over the last 4 years, I've stepped away from using social media in favor of spe
 - Working on perfecting thin, crispy homemade pizza made with a high protein dough mixture of vital wheat gluten and King Arthur flour
 - Getting more steps in with my new walking pad
 - Watching _all_ of the Aliens movies with my partner Jeff
-- Learning more about [Eleventy](https://www.11ty.dev/)
+- Learning more about <a href="https://www.11ty.dev/" target="_blank">Eleventy {% newtab %}</a>
 
 _This page was inspired by <a href="https://nownownow.com/about" target="_blank">Derek Sivers’ nownownow.com {% newtab %}</a>. I first learned about it from reading his books and blog. Then, I stumbled upon <a href="https://www.tempertemper.net/now" target="_blank">tempertemper.net 's "now" page {% newtab %}</a> which I took as a friendly reminder to make one myself!_
