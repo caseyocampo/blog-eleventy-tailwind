@@ -45,6 +45,14 @@
       crossorigin
     />
     <link href="/assets/output.css" rel="stylesheet" />
+    <!-- Preload the LCP image with a high fetchpriority so it starts loading with the stylesheet. -->
+    <link
+      rel="preload"
+      fetchpriority="high"
+      as="image"
+      href="/img/bg-motif.svg"
+      type="image/svg"
+    />
     <link rel="icon" type="image/x-icon" href="/icons/favicon-512.png" />
     <link rel="apple-touch-icon" href="/icons/apple-touch-icon.png" />
   </head>
