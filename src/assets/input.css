@@ -106,6 +106,7 @@ header {
 }
 
 main {
+  background: var(--secondary-color);
   background-image: url("/img/bg-motif.svg");
   background-repeat: no-repeat;
   background-position: top right;
