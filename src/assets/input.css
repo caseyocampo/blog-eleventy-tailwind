@@ -62,7 +62,6 @@ html,
 header,
 body,
 section,
-main,
 article {
   background-color: var(--secondary-color);
 }
@@ -106,14 +105,13 @@ header {
 }
 
 main {
-  background: var(--secondary-color);
   background-image: url("/img/bg-motif.svg");
   background-repeat: no-repeat;
   background-position: top right;
 }
 
 main section {
-  @apply py-12 my-12 z-10 bg-transparent;
+  @apply py-12 my-12 z-10;
   /* @apply border border-black; */
 }
 
