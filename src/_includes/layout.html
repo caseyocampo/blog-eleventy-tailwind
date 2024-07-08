@@ -5,9 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta
       name="description"
-      content="{% if description %}{{ description }}{% else %}Casey Ocampo{% endif %}"
+      content="{% if description %}{{
+        description
+      }}{% else %}Casey Ocampo{% endif %}"
     />
-    <title>{{ title | default: 'Casey Ocampo' }}</title>
+    <title>{{ title | default : "Casey Ocampo" }}</title>
     <link
       href="/assets/fonts/FiraSans-Black.ttf"
       rel="preload"
@@ -61,16 +63,7 @@
       <nav>
         <div class="flex w-full justify-between mb-2">
           <p>
-            <a
-              href="/"
-              class="site-title"
-              style="
-                font-family: 'FiraSansBlack';
-                font-size: 3rem;
-                text-decoration: none;
-              "
-              >Casey Ocampo</a
-            >
+            <a href="/" class="site-title">Casey Ocampo</a>
           </p>
           <button
             id="menu-btn"

@@ -211,10 +211,10 @@ li {
 
 /* Homepage styles */
 
-/* p > a.site-title {
-  @apply font-black text-5xl;
+p > a.site-title {
+  @apply font-black text-5xl no-underline;
   font-family: var(--font-heading), system-ui, sans-serif;
-} */
+}
 
 .about-description a {
   @apply text-2xl;
