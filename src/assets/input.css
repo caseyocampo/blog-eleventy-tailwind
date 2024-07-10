@@ -200,7 +200,10 @@ main article.post {
 
 .post p,
 .page p,
-li {
+.page li,
+.post li,
+main li,
+footer li {
   @apply mb-3;
 }
 
