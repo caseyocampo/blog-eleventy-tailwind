@@ -42,10 +42,18 @@
   src: url("/assets/fonts/IBMPlexSans-Italic.ttf");
 }
 
+@font-face {
+  font-family: "IBMPlexMono";
+  font-style: monospace;
+  font-weight: 400;
+  font-display: swap;
+  src: url("/assets/fonts/IBMPlexMono-Regular.ttf");
+}
+
 :root {
   --font-heading: "IBMPlexSansBold";
   --font-base: "IBMPlexSans";
-  --primary-color: #0c0a09;
+  --primary-color: #292524;
   --secondary-color: #f7f7f7;
   --code-bg: #d3c7c8;
 }
@@ -55,8 +63,7 @@ header,
 body,
 section,
 article {
-  /* background-color: var(--secondary-color); */
-  color: #0c0a09;
+  color: var(--primary-color);
 }
 
 h1,
@@ -93,12 +100,27 @@ a {
   color: var(--primary-color);
 }
 
-header {
+header,
+.bg-secondary {
   background-color: var(--secondary-color);
 }
 
+.description,
+.description a {
+  @apply text-stone-600;
+}
+
+footer a:hover,
+.description a:hover {
+  @apply text-orange-700;
+}
+
 #menu-list li a {
-  @apply text-2xl;
+  @apply text-2xl py-2 px-4 bg-stone-100 rounded-md no-underline;
+}
+
+#menu-list li a:hover {
+  @apply bg-stone-200 transition-all;
 }
 
 main {
@@ -115,16 +137,8 @@ img {
   height: auto;
 }
 
-main a {
-  border-bottom-style: inset;
-  box-shadow: inset 0 -2px 0 white;
-}
-
 main a:hover {
-  background: white;
-  border-bottom-style: inset;
-  border-bottom: 4px solid white;
-  transition: background 0.25s;
+  @apply text-orange-700;
 }
 
 pre {
@@ -226,6 +240,12 @@ article .post img {
 .post-img {
   @apply mb-6 rounded-md w-full;
   max-width: 600px;
+}
+
+/* Blog Styles */
+
+.date {
+  font-family: "IBMPlexMono", monospace, sans-serif;
 }
 
 /* Responsive styles */

@@ -6,11 +6,13 @@ layout: "layout.html"
   <section class="page-heading border-b border-stone-200">
     <h1 class="max-w-default mx-auto pb-12 pt-24">{{ title }}</h1>
   </section>
-  <p class="italic">Published on {{ page.date | postDate }}</p>
+  <p class="date italic max-w-default mx-auto mt-12">
+    Published on {{ page.date | postDate }}
+  </p>
   <div class="mb-12 post">
     {% if description %}
     <p>{{ description }}</p>
     {% endif %}
   </div>
-  <p>{{ content }}</p>
+  <div class="max-w-default mx-auto mb-24">{{ content }}</div>
 </article>

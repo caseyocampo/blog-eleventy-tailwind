@@ -4,10 +4,12 @@ layout: "layout.html"
 
 <article>
   <section class="page-heading border-b border-stone-200">
-    <h1 class="max-w-default mx-auto pb-12 pt-24">{{ title }}</h1>
+    <div class="max-w-default mx-auto pb-12 pt-24">
+      <h1>{{ title }}</h1>
+      <p class="text-stone-600">{{ description }}</p>
+    </div>
   </section>
-  <section class="page max-w-default mx-auto">
-    <p>{{ description }}</p>
+  <section class="page max-w-default mx-auto mt-12 mb-24">
+    {{ content }}
   </section>
-  <section class="page">{{ content }}</section>
 </article>

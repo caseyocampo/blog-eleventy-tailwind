@@ -5,7 +5,7 @@ tags: "page"
 permalink: "/now/"
 ---
 
-_Last updated June 29, 2024_
+<span class="date italic">_Last updated June 29, 2024_</span>
 
 ## What's the deal with this "now" page?
 
