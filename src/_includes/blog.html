@@ -2,9 +2,13 @@
 layout: "layout.html"
 ---
 
-<section class="max-w-default mx-auto">
-  <h1>{{ title }}</h1>
-  <p>{{ description }}</p>
+<section>
+  <section class="page-heading border-b border-stone-200">
+    <h1 class="max-w-default mx-auto pb-12 pt-24">{{ title }}</h1>
+  </section>
+  <section class="max-w-default mx-auto">
+    <p>{{ description }}</p>
+  </section>
 </section>
 
 {% if content %}

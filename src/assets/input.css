@@ -208,7 +208,7 @@ a.site-title {
   font-family: var(--font-heading), system-ui, sans-serif;
 }
 
-.about-tagline {
+.page-heading {
   background: var(--secondary-color);
   width: 100%;
 }
