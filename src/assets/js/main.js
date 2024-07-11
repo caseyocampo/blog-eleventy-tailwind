@@ -29,7 +29,7 @@ let navLinks = document.querySelectorAll(".nav-link");
 for (let i = 0; i < navLinks.length; i++) {
   // Compare the text content of each link with the slug
   if (
-    getSlug(currentUrl)[0] != null
+    getSlug(currentUrl)[0] !== ""
       ? navLinks[i].textContent.toLowerCase() === getSlug(currentUrl)[0]
       : false
   ) {
