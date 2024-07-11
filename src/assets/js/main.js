@@ -28,7 +28,11 @@ let navLinks = document.querySelectorAll(".nav-link");
 // Loop through each navigation link
 for (let i = 0; i < navLinks.length; i++) {
   // Compare the text content of each link with the slug
-  if (navLinks[i].textContent.toLowerCase() === getSlug(currentUrl)[0]) {
+  if (
+    getSlug(currentUrl)[0] != null
+      ? navLinks[i].textContent.toLowerCase() === getSlug(currentUrl)[0]
+      : false
+  ) {
     // Add a class to style the link
     navLinks[i].classList.add("current-link");
   }
