@@ -5,18 +5,20 @@ layout: layout.html
 <div>{{ content }}</div>
 
 <section>
-  <h2>Recent Posts</h2>
-  <p class="mb-8">
-    Here are a few of my most recent posts. For a full list of my writings,
-    check out my <a href="/blog/">blog page</a>.
-  </p>
+  <div class="max-w-default mx-auto my-24">
+    <h2 class="mb-8">Recent Posts</h2>
+    <p class="mb-12">
+      Here are a few of my most recent posts. For a full list of my writings,
+      check out my <a href="/blog/">blog page</a>.
+    </p>
 
-  {% assign recent_posts = collections.post | reverse %}
-  <ul class="mt-12 ml-5 list-disc list-outside">
-    {% for post in recent_posts limit:4 %}
-    <li>
-      <a href="{{ post.url }}">{{ post.data.title }}</a>
-    </li>
-    {% endfor %}
-  </ul>
+    {% assign recent_posts = collections.post | reverse %}
+    <ul class="mt-12 ml-12 list-disc list-outside">
+      {% for post in recent_posts limit:4 %}
+      <li>
+        <a href="{{ post.url }}">{{ post.data.title }}</a>
+      </li>
+      {% endfor %}
+    </ul>
+  </div>
 </section>

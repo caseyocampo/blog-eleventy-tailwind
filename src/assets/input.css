@@ -3,58 +3,50 @@
 @tailwind utilities;
 
 @font-face {
-  font-family: "FiraSansBlack";
-  font-style: normal;
-  font-weight: 900;
-  font-display: swap;
-  src: url("/assets/fonts/FiraSans-Black.ttf");
-}
-
-@font-face {
-  font-family: "FiraSansBlack";
-  font-style: italic;
-  font-weight: 900;
-  font-display: swap;
-  src: url("/assets/fonts/FiraSans-BlackItalic.ttf");
-}
-
-@font-face {
-  font-family: "FiraSans";
-  font-style: normal;
-  font-weight: 400;
-  font-display: swap;
-  src: url("/assets/fonts/FiraSans-Regular.ttf");
-}
-
-@font-face {
-  font-family: "FiraSans";
+  font-family: "IBMPlexSansBold";
   font-style: normal;
   font-weight: 700;
   font-display: swap;
-  src: url("/assets/fonts/FiraSans-Bold.ttf");
+  src: url("/assets/fonts/IBMPlexSans-Bold.ttf");
 }
 
 @font-face {
-  font-family: "FiraSans";
+  font-family: "IBMPlexSansBold";
   font-style: italic;
   font-weight: 700;
   font-display: swap;
-  src: url("/assets/fonts/FiraSans-BoldItalic.ttf");
+  src: url("/assets/fonts/IBMPlexSans-BoldItalic.ttf");
 }
 
 @font-face {
-  font-family: "FiraSans";
+  font-family: "IBMPlexSansSemiBold";
+  font-style: italic;
+  font-weight: 700;
+  font-display: swap;
+  src: url("/assets/fonts/IBMPlexSans-SemiBold.ttf");
+}
+
+@font-face {
+  font-family: "IBMPlexSans";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("/assets/fonts/IBMPlexSans-Regular.ttf");
+}
+
+@font-face {
+  font-family: "IBMPlexSans";
   font-style: italic;
   font-weight: 400;
   font-display: swap;
-  src: url("/assets/fonts/FiraSans-Italic.ttf");
+  src: url("/assets/fonts/IBMPlexSans-Italic.ttf");
 }
 
 :root {
-  --font-heading: "FiraSansBlack";
-  --font-base: "FiraSans";
-  --primary-color: #5f4549;
-  --secondary-color: #e0d9da;
+  --font-heading: "IBMPlexSansBold";
+  --font-base: "IBMPlexSans";
+  --primary-color: #0c0a09;
+  --secondary-color: #f7f7f7;
   --code-bg: #d3c7c8;
 }
 
@@ -63,7 +55,8 @@ header,
 body,
 section,
 article {
-  background-color: var(--secondary-color);
+  /* background-color: var(--secondary-color); */
+  color: #0c0a09;
 }
 
 h1,
@@ -78,7 +71,7 @@ h1 {
 }
 
 h2 {
-  @apply text-5xl font-black;
+  @apply text-6xl font-black;
 }
 
 h3 {
@@ -90,18 +83,22 @@ a,
 li,
 button,
 span {
-  @apply text-xl;
+  @apply text-3xl;
   font-family: var(--font-base), system-ui, sans-serif;
   color: var(--primary-color);
 }
 
 a {
-  @apply underline text-xl;
+  @apply underline text-3xl;
   color: var(--primary-color);
 }
 
 header {
-  @apply pt-8 pb-2 mb-8;
+  background-color: var(--secondary-color);
+}
+
+#menu-list li a {
+  @apply text-2xl;
 }
 
 main {
@@ -111,17 +108,11 @@ main {
 }
 
 main section {
-  @apply py-12 my-12 z-10;
   /* @apply border border-black; */
 }
 
 img {
   height: auto;
-}
-
-section,
-article {
-  @apply bg-transparent;
 }
 
 main a {
@@ -134,11 +125,6 @@ main a:hover {
   border-bottom-style: inset;
   border-bottom: 4px solid white;
   transition: background 0.25s;
-}
-
-footer {
-  @apply pt-14 pb-8 mt-12;
-  border-top: 1px solid #c3abac;
 }
 
 pre {
@@ -202,9 +188,12 @@ main article.post {
 .page p,
 .page li,
 .post li,
+main p,
+main a,
 main li,
 footer li {
-  @apply mb-3;
+  @apply mb-6;
+  line-height: 1.25;
 }
 
 .post h3,
@@ -215,12 +204,17 @@ footer li {
 /* Homepage styles */
 
 a.site-title {
-  @apply font-black text-5xl no-underline;
+  @apply font-semibold text-4xl no-underline;
   font-family: var(--font-heading), system-ui, sans-serif;
 }
 
+.about-tagline {
+  background: var(--secondary-color);
+  width: 100%;
+}
+
 .about-description a {
-  @apply text-2xl;
+  @apply text-3xl;
 }
 
 article img,

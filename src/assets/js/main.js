@@ -9,10 +9,10 @@ function toggleMenu() {
   if (menuList.classList.contains("hidden")) {
     menuList.classList.toggle("hidden");
     menuBtn.setAttribute("aria-expanded", "true");
-    header.classList.add("header-border");
+    // header.classList.add("header-border");
   } else if (!menuList.classList.contains("hidden")) {
     menuList.classList.toggle("hidden");
     menuBtn.setAttribute("aria-expanded", "false");
-    header.classList.remove("header-border");
+    // header.classList.remove("header-border");
   }
 }

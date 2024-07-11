@@ -3,13 +3,6 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link
-      rel="preload"
-      fetchpriority="high"
-      as="image"
-      href="/img/bg-motif.svg"
-      type="image/svg+xml"
-    />
     <meta
       name="description"
       content="{% if description %}{{
@@ -17,64 +10,55 @@
       }}{% else %}Casey Ocampo{% endif %}"
     />
     <title>{{ title | default : "Casey Ocampo" }}</title>
-
     <link
-      href="/assets/fonts/FiraSans-Black.ttf"
+      href="/assets/fonts/IBMPlexSans-Bold.ttf"
       rel="preload"
       as="font"
       crossorigin
     />
     <link
-      href="/assets/fonts/FiraSans-BlackItalic.ttf"
+      href="/assets/fonts/IBMPlexSans-BoldItalic.ttf"
       rel="preload"
       as="font"
       crossorigin
     />
     <link
-      href="/assets/fonts/FiraSans-Bold.ttf"
+      href="/assets/fonts/IBMPlexSans-SemiBold.ttf"
       rel="preload"
       as="font"
       crossorigin
     />
     <link
-      href="/assets/fonts/FiraSans-BoldItalic.ttf"
+      href="/assets/fonts/IBMPlexSans-Regular.ttf"
       rel="preload"
       as="font"
       crossorigin
     />
     <link
-      href="/assets/fonts/FiraSans-Italic.ttf"
-      rel="preload"
-      as="font"
-      crossorigin
-    />
-    <link
-      href="/assets/fonts/FiraSans-Regular.ttf"
+      href="/assets/fonts/IBMPlexSans-Italic.ttf"
       rel="preload"
       as="font"
       crossorigin
     />
     <link href="/assets/output.css" rel="stylesheet" />
-    <!-- Preload the LCP image with a high fetchpriority so it starts loading with the stylesheet. -->
-    <link
-      rel="preload"
-      fetchpriority="high"
-      as="image"
-      href="/img/logo.svg"
-      type="image/svg+xml"
-    />
-
     <link rel="icon" type="image/x-icon" href="/icons/favicon-512.png" />
     <link rel="apple-touch-icon" href="/icons/apple-touch-icon.png" />
   </head>
-  <header class="px-4">
-    <div class="w-full m-auto sm:max-w-4xl">
+  <header class="px-4 py-6 border-b border-stone-200">
+    <div class="w-full m-auto sm:max-w-default">
       <nav class="flex-col flex sm:flex-row sm:items-center">
         <div class="flex w-full justify-between mb-2 sm:mb-0">
-          <a href="/" class="site-title">
+          <a href="/" class="site-title flex items-center gap-2">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 24 24"
+              fill="currentColor"
+              aria-hidden="true"
+              class="fill-orange-600 h-10 w-10"
+            >
+              <path d="M13 10H20L11 23V14H4L13 1V10Z"></path>
+            </svg>
             Casey Ocampo
-            <!-- <img src="/img/logo.svg" alt="" width="300" height="43"
-          /> -->
           </a>
           <button
             id="menu-btn"
@@ -94,14 +78,14 @@
       </nav>
     </div>
   </header>
-  <main class="px-4">
-    <div class="max-w-4xl mx-auto p-0">{{ content }}</div>
+  <main>
+    <div class="p-0">{{ content }}</div>
   </main>
-  <footer class="px-4">
-    <div class="block sm:flex sm:justify-between max-w-4xl mx-auto">
+  <footer class="px-4 pb-8 border-t border-stone-200">
+    <div class="block sm:flex sm:justify-between max-w-default mx-auto">
       <section class="w-full sm:w-1/2 mx-auto">
-        <h2 class="mb-12">Menu</h2>
-        <ul class="flex flex-col mb-8">
+        <h2 class="my-24">Menu</h2>
+        <ul class="flex flex-col mb-24">
           <li><a href="/">Home</a></li>
           <li><a href="/about/">About</a></li>
           <li><a href="/blog/">Blog</a></li>
@@ -109,7 +93,7 @@
         </ul>
       </section>
       <section class="w-full sm:w-1/2 mx-auto">
-        <h2 class="mb-12">Connect with me</h2>
+        <h2 class="my-24">Connect with me</h2>
         <ul class="flex flex-col mb-8">
           <li>
             <a href="https://www.linkedin.com/in/caseyocampo/" target="_blank"
@@ -125,7 +109,9 @@
         </ul>
       </section>
     </div>
-    <section class="max-w-4xl mx-auto block items-center gap-x-4 mt-8 sm:flex">
+    <section
+      class="max-w-default mx-auto block items-center gap-x-4 mt-8 sm:flex"
+    >
       <p class="py-4">Casey Ocampo © 2024</p>
       <span aria-hidden="true" class="hidden sm:inline-block">|</span>
       <p>
