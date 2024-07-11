@@ -261,9 +261,14 @@ article .post img {
     @apply pt-6 pb-4;
   }
 
+  p,
+  a,
+  li,
+  button,
+  span,
   .about-description p,
   .about-description a {
-    @apply text-xl;
+    @apply text-2xl;
   }
 
   .header-border {
@@ -271,6 +276,6 @@ article .post img {
   }
 
   a.site-title {
-    @apply text-4xl;
+    @apply text-3xl;
   }
 }

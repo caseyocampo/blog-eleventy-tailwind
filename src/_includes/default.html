@@ -5,7 +5,7 @@ layout: layout.html
 <div>{{ content }}</div>
 
 <section>
-  <div class="max-w-default mx-auto my-24">
+  <div class="max-w-default mx-4 my-24 sm:mx-auto">
     <h2 class="mb-8">Recent Posts</h2>
     <p class="mb-12">
       Here are a few of my most recent posts. For a full list of my writings,
@@ -13,7 +13,7 @@ layout: layout.html
     </p>
 
     {% assign recent_posts = collections.post | reverse %}
-    <ul class="mt-12 ml-12 list-disc list-outside">
+    <ul class="mt-12 ml-6 sm:ml-12 list-disc list-outside">
       {% for post in recent_posts limit:4 %}
       <li>
         <a href="{{ post.url }}">{{ post.data.title }}</a>
