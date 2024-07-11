@@ -127,16 +127,6 @@ footer a:hover,
   @apply bg-stone-200;
 }
 
-main {
-  background-image: url("/img/bg-motif.svg");
-  background-repeat: no-repeat;
-  background-position: top right;
-}
-
-main section {
-  /* @apply border border-black; */
-}
-
 img {
   height: auto;
 }
