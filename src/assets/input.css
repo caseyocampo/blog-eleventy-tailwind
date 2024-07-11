@@ -123,6 +123,10 @@ footer a:hover,
   @apply bg-stone-200 transition-all;
 }
 
+#menu-list li a.current-link {
+  @apply bg-stone-200;
+}
+
 main {
   background-image: url("/img/bg-motif.svg");
   background-repeat: no-repeat;
