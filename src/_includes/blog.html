@@ -46,7 +46,9 @@ layout: "layout.html"
       {% for post in all_posts %} {% assign currentdate = post.date | date: "%Y"
       %} {% if currentdate != date %}
       <li class="list-none -ml-4">
-        <h3 id="y{{currentdate}}" class="mt-12 date">{{ currentdate }}</h3>
+        <h3 id="y{{currentdate}}" class="font-bold mt-12 date">
+          {{ currentdate }}
+        </h3>
       </li>
       {% assign date = currentdate %} {% endif %}
       <li><a href="{{ post.url }}">{{ post.data.title }}</a></li>

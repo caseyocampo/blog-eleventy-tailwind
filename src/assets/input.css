@@ -50,6 +50,14 @@
   src: url("/assets/fonts/IBMPlexMono-Regular.ttf");
 }
 
+@font-face {
+  font-family: "IBMPlexMono";
+  font-style: monospace;
+  font-weight: 700;
+  font-display: swap;
+  src: url("/assets/fonts/IBMPlexMono-Bold.ttf");
+}
+
 :root {
   --font-heading: "IBMPlexSansBold";
   --font-base: "IBMPlexSans";
