@@ -8,11 +8,11 @@ permalink: "/posts/save-money-change-your-own-oil/"
 
 Today was the first day I did an oil change on my own.
 
-![black toyota corolla lifted by two jacks stands. and oil pan is underneath the car.](/posts/2024/img/oil-change.png)
-
 It was surprisingly easy and only really took about 7 steps. Just lift the car, drain the oil, replace the filter, put the car down, replace the oil, and check the dipstick. There are a few other housekeeping details in between but for the most part, that was it.
 
 Empty the oil and remove the filter, put in new oil and filter.
+
+![black toyota corolla lifted by two jacks stands. and oil pan is underneath the car.](/posts/2024/img/oil-change.png)
 
 The only “hard part” was getting the tools together that I didn’t have.
 

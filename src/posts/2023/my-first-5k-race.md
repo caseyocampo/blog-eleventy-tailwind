@@ -10,9 +10,9 @@ About two weeks ago I jogged past a giant digital timer perched on the side of t
 
 I don’t have the exact time that I finished because it wasn’t a chipped event but the last I looked, the numbers read close to 42 minutes and 30-something seconds.
 
-<img src="/posts/2023/img/casey-5k.webp" alt="me dripping in sweat after the race" style="max-width: 300px">
-
 After I finished the race, I knew I wanted to write about it.
+
+<img src="/posts/2023/img/casey-5k.webp" alt="me dripping in sweat after the race" style="max-width: 300px">
 
 The thing is, I was so overwhelmed with emotions, I didn’t want to start typing while all of those feelings were bouncing around.
 

@@ -4,15 +4,19 @@ layout: "layout.html"
 
 <article class="mx-auto">
   <section class="page-heading border-b border-stone-200">
-    <h1 class="max-w-default mx-auto pb-12 pt-24">{{ title }}</h1>
+    <div class="mx-4 clg:mx-auto">
+      <h1 class="max-w-default mx-auto pb-12 pt-24">{{ title }}</h1>
+    </div>
   </section>
-  <p class="date italic max-w-default mx-auto mt-12">
-    Published on {{ page.date | postDate }}
-  </p>
-  <div class="mb-12 post">
-    {% if description %}
-    <p>{{ description }}</p>
-    {% endif %}
+  <div class="mx-4 clg:mx-auto">
+    <p class="date text-stone-600 max-w-default mx-auto mt-12">
+      Published on {{ page.date | postDate }}
+    </p>
+    <div class="mb-12 post">
+      {% if description %}
+      <p>{{ description }}</p>
+      {% endif %}
+    </div>
+    <div class="post max-w-default mx-auto mb-24">{{ content }}</div>
   </div>
-  <div class="max-w-default mx-auto mb-24">{{ content }}</div>
 </article>

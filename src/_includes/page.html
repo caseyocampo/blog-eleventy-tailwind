@@ -5,11 +5,13 @@ layout: "layout.html"
 <article>
   <section class="page-heading border-b border-stone-200">
     <div class="max-w-default mx-auto pb-12 pt-24">
-      <h1>{{ title }}</h1>
-      <p class="text-stone-600">{{ description }}</p>
+      <div class="mx-4 clg:mx-auto">
+        <h1>{{ title }}</h1>
+        <p class="text-stone-600">{{ description }}</p>
+      </div>
     </div>
   </section>
   <section class="page max-w-default mx-auto mt-24 mb-24">
-    {{ content }}
+    <div class="mx-4 clg:mx-auto">{{ content }}</div>
   </section>
 </article>
