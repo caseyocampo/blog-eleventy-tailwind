@@ -63,7 +63,7 @@
   --font-base: "IBMPlexSans";
   --primary-color: #292524;
   --secondary-color: #f7f7f7;
-  --code-bg: #d3c7c8;
+  --code-bg: #292524;
 }
 
 html,
@@ -144,26 +144,25 @@ main a:hover {
 }
 
 pre {
-  @apply mb-4 rounded-md px-1 border-t-8 border-[#442f32];
+  @apply mb-4 rounded-md p-4;
   background: var(--code-bg);
-  color: var(--primary-color);
+  color: var(--secondary-color);
   display: inline-block;
+  font-family: "IBMPlexMono", monospace;
   overflow-x: scroll;
   width: 100%;
   -webkit-overflow-scrolling: touch;
 }
 
 pre code {
-  @apply text-lg py-4 px-2;
-  font-family: monospace;
+  @apply text-2xl;
   text-wrap: wrap;
 }
 
-code {
-  @apply text-lg;
-  background: #d3c7c8;
-  color: var(--primary-color);
+p code {
+  @apply text-2xl bg-stone-200 px-1 rounded-sm;
   display: inline-block;
+  font-family: "IBMPlexMono", monospace;
 }
 
 article ul {
