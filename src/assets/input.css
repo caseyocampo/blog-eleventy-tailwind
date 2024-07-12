@@ -245,6 +245,7 @@ article .post img {
 /* Blog Styles */
 
 .date {
+  @apply text-2xl;
   font-family: "IBMPlexMono", monospace, sans-serif;
 }
 
@@ -283,5 +284,8 @@ article .post img {
 
   a.site-title {
     @apply text-3xl;
+  }
+  .date {
+    @apply text-xl;
   }
 }
