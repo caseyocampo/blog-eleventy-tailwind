@@ -7,7 +7,7 @@
   font-style: normal;
   font-weight: 700;
   font-display: swap;
-  src: url("/assets/fonts/IBMPlexSans-Bold.ttf");
+  src: url("/assets/fonts/IBMPlexSans-Bold.ttf") format("truetype");
 }
 
 @font-face {
@@ -15,7 +15,7 @@
   font-style: italic;
   font-weight: 700;
   font-display: swap;
-  src: url("/assets/fonts/IBMPlexSans-BoldItalic.ttf");
+  src: url("/assets/fonts/IBMPlexSans-BoldItalic.ttf") format("truetype");
 }
 
 @font-face {
@@ -23,7 +23,7 @@
   font-style: normal;
   font-weight: 600;
   font-display: swap;
-  src: url("/assets/fonts/IBMPlexSans-SemiBold.ttf");
+  src: url("/assets/fonts/IBMPlexSans-SemiBold.ttf") format("truetype");
 }
 
 @font-face {
@@ -31,7 +31,7 @@
   font-style: normal;
   font-weight: 400;
   font-display: swap;
-  src: url("/assets/fonts/IBMPlexSans-Regular.ttf");
+  src: url("/assets/fonts/IBMPlexSans-Regular.ttf") format("truetype");
 }
 
 @font-face {
@@ -39,7 +39,7 @@
   font-style: italic;
   font-weight: 400;
   font-display: swap;
-  src: url("/assets/fonts/IBMPlexSans-Italic.ttf");
+  src: url("/assets/fonts/IBMPlexSans-Italic.ttf") format("truetype");
 }
 
 @font-face {
@@ -47,7 +47,7 @@
   font-style: monospace;
   font-weight: 400;
   font-display: swap;
-  src: url("/assets/fonts/IBMPlexMono-Regular.ttf");
+  src: url("/assets/fonts/IBMPlexMono-Regular.ttf") format("truetype");
 }
 
 @font-face {
@@ -55,7 +55,7 @@
   font-style: monospace;
   font-weight: 700;
   font-display: swap;
-  src: url("/assets/fonts/IBMPlexMono-Bold.ttf");
+  src: url("/assets/fonts/IBMPlexMono-Bold.ttf") format("truetype");
 }
 
 :root {
