@@ -113,6 +113,15 @@ header,
   background-color: var(--secondary-color);
 }
 
+.skip-link {
+  @apply absolute inline-block opacity-0 -z-10 top-2.5 sm:top-3.5;
+}
+
+.skip-link:focus {
+  @apply opacity-100 z-10;
+  transform: translateY(0);
+}
+
 .description,
 .description a {
   @apply text-stone-600;
