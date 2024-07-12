@@ -1,5 +1,6 @@
 ---
 title: "Affiliate Disclosure"
+page-title: "Affiliate Disclosure for CaseyOcampo.com"
 description:
 tags: "page"
 permalink: "/affiliate-disclosure/"

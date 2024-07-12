@@ -1,5 +1,6 @@
 ---
 title: "About"
+page-title: "About Casey Ocampo"
 description: "Here's a bit more about me, my professional background, and where I'm at now."
 tags: "page"
 permalink: "/about/"

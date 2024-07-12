@@ -1,5 +1,6 @@
 ---
 title: "Certifications"
+page-title: "Certifications completed by Casey Ocampo"
 description: "A non-exhaustive list of courses and certifications I've completed."
 tags: "page"
 permalink: "/certifications/"

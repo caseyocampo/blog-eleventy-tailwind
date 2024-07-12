@@ -9,7 +9,11 @@
         description
       }}{% else %}Casey Ocampo{% endif %}"
     />
-    <title>{{ title | default : "Casey Ocampo" }}</title>
+
+    <title>
+      {% if page-title %} {{ page-title }} {% elsif title %} {{ title }} {% else
+      %} Casey Ocampo's website {% endif %}
+    </title>
     <link
       href="/assets/fonts/fonts.css"
       rel="preload"

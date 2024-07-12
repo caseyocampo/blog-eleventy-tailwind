@@ -1,5 +1,6 @@
 ---
 title: "Accessibility Statement"
+page-title: "Accessibility Statement for CaseyOcampo.com"
 description:
 tags: "page"
 permalink: "/accessibility-statement/"
