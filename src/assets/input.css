@@ -124,11 +124,11 @@ footer a:hover,
 }
 
 #menu-list li a {
-  @apply text-2xl py-2 px-4 bg-stone-100 rounded-md no-underline;
+  @apply text-2xl py-2 px-4 bg-stone-100 rounded-md no-underline transition-all;
 }
 
 #menu-list li a:hover {
-  @apply bg-stone-200 transition-all;
+  @apply bg-stone-200;
 }
 
 #menu-list li a.current-link {
