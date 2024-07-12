@@ -64,6 +64,6 @@ Now let’s break it down.
 
 Here's a neat graphic I made using Excalidraw:
 
-<img src="/posts/img/wordpress-the-tags.webp" alt="A visual example of how the_tags function works" class="post-img">
+<img src="/posts/img/wordpress-the-tags.webp" alt="A visual example of how the_tags function works">
 
 The `$before` variable is placed before the list of tags. Then, the `$sep` variable separates them. And finally, the `$after` variable closes the list of tags.

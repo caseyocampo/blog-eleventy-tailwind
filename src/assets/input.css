@@ -11,6 +11,8 @@
   --code-bg: #292524;
 }
 
+/* Base Styles */
+
 html,
 header,
 body,
@@ -54,46 +56,31 @@ a {
   color: var(--primary-color);
 }
 
-header,
-.bg-secondary {
+header {
   background-color: var(--secondary-color);
 }
 
-.skip-link {
-  @apply absolute inline-block opacity-0 -z-10 top-2.5 sm:top-3.5;
-}
-
-.skip-link:focus {
-  @apply opacity-100 z-10;
-  transform: translateY(0);
-}
-
-.description,
-.description a {
-  @apply text-stone-600;
-}
-
-footer a:hover,
-.description a:hover {
-  @apply text-orange-700;
-}
-
-#menu-list li a {
+header nav ul li a {
   @apply text-2xl py-2 px-4 bg-stone-100 rounded-md no-underline transition-all;
 }
 
-#menu-list li a:hover {
+header nav ul li a:hover {
   @apply bg-stone-200;
 }
 
-#menu-list li a.current-link {
+header nav ul li a.current-link {
   @apply bg-stone-200;
+}
+
+main article h2 {
+  @apply mt-16 mb-4;
 }
 
 img {
   height: auto;
 }
 
+footer a:hover,
 main a:hover {
   @apply text-orange-700;
 }
@@ -119,6 +106,7 @@ p code {
   font-family: "IBMPlexMono", monospace;
 }
 
+main ul,
 article ul {
   list-style-type: disc;
   list-style-position: outside;
@@ -127,36 +115,10 @@ article ul {
   margin-bottom: 1.5rem;
 }
 
-.blog ul {
-  list-style-type: disc;
-  list-style-position: outside;
-  margin-left: 1.25rem;
+main h3 {
+  @apply mt-8 mb-4;
 }
 
-.blog ul li h3 {
-  margin-left: -0.25rem;
-}
-
-blockquote {
-  @apply ml-8 my-8;
-}
-
-/* Page and Post specific styles */
-
-main article.post {
-  @apply py-8 my-4 bg-transparent;
-  /* border-color: #978c8d; */
-}
-
-.post h2,
-.page h2 {
-  @apply mt-12 mb-4;
-}
-
-.post p,
-.page p,
-.page li,
-.post li,
 main p,
 main a,
 main li,
@@ -165,55 +127,49 @@ footer li {
   line-height: 1.25;
 }
 
-.post h3,
-.page h3 {
-  @apply mt-8 mb-4;
+article img {
+  @apply mb-6 rounded-md shadow-md w-full;
+  max-width: 600px;
 }
 
-p b,
-p strong {
+blockquote {
+  @apply ml-8 my-8;
+}
+
+b,
+strong {
   @apply font-bold;
 }
 
-/* Homepage styles */
+/* Custom Style */
 
-a.site-title {
-  @apply font-bold text-4xl no-underline;
-  font-family: var(--font-heading), system-ui, sans-serif;
+.font-mono {
+  font-family: "IBMPlexMono", monospace, sans-serif;
 }
 
-.page-heading {
-  background: var(--secondary-color);
-  width: 100%;
+.bg-secondary {
+  background-color: var(--secondary-color);
+}
+
+.skip-link {
+  @apply absolute inline-block opacity-0 -z-10 top-2.5 sm:top-3.5;
+}
+
+.skip-link:focus {
+  @apply opacity-100 z-10;
+  transform: translateY(0);
 }
 
 .about-description a {
   @apply text-3xl;
 }
 
-article img,
-article .post img {
-  @apply mb-6 rounded-md shadow-md w-full;
-  max-width: 600px;
+.description,
+.description a {
+  @apply text-stone-600;
 }
 
-.post-img {
-  @apply mb-6 rounded-md w-full;
-  max-width: 600px;
-}
-
-/* Blog Styles */
-
-.date {
-  @apply text-2xl;
-  font-family: "IBMPlexMono", monospace, sans-serif;
-}
-
-.font-mono {
-  @apply text-3xl;
-}
-
-/* Responsive styles */
+/* Responsive Styles */
 
 @media (max-width: 640px) {
   h1 {
@@ -240,18 +196,6 @@ article .post img {
   .about-description p,
   .about-description a {
     @apply text-2xl;
-  }
-
-  .header-border {
-    border-bottom: 1px solid #c3abac;
-  }
-
-  a.site-title {
-    @apply text-3xl;
-  }
-
-  .date {
-    @apply text-xl;
   }
 
   .font-mono {

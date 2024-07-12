@@ -3,7 +3,7 @@ layout: "layout.html"
 ---
 
 <section>
-  <section class="page-heading border-b border-stone-200">
+  <section class="bg-secondary border-b border-stone-200">
     <div class="max-w-default mx-auto pb-12 pt-24">
       <div class="mx-4 clg:mx-auto">
         <h1>{{ title }}</h1>
@@ -23,7 +23,7 @@ layout: "layout.html"
   <div class="mx-4 clg:mx-auto">
     <h2 class="mb-12">All Posts</h2>
 
-    <h2 class="font-mono mb-6 text-2xl">2024</h2>
+    <h2 class="font-mono mb-6 text-3xl">2024</h2>
     {% assign all_posts_2024 = collections.post | reverse %}
     <ul class="mb-24">
       {% for post_2024 in all_posts_2024 %} {% assign year2024 = post_2024.date
@@ -32,7 +32,7 @@ layout: "layout.html"
       {% endif %} {% endfor %}
     </ul>
 
-    <h2 class="font-mono mb-6 text-2xl">2023</h2>
+    <h2 class="font-mono mb-6 text-3xl">2023</h2>
     {% assign all_posts_2023 = collections.post | reverse %}
     <ul class="mb-24">
       {% for post_2023 in all_posts_2023 %} {% assign year2023 = post_2023.date
@@ -41,7 +41,7 @@ layout: "layout.html"
       {% endif %} {% endfor %}
     </ul>
 
-    <h2 class="font-mono mb-6 text-2xl">2022</h2>
+    <h2 class="font-mono mb-6 text-3xl">2022</h2>
     {% assign all_posts_2022 = collections.post | reverse %}
     <ul class="mb-24">
       {% for post_2022 in all_posts_2022 %} {% assign year2022 = post_2022.date
@@ -50,7 +50,7 @@ layout: "layout.html"
       {% endif %} {% endfor %}
     </ul>
 
-    <h2 class="font-mono mb-6 text-2xl">2021</h2>
+    <h2 class="font-mono mb-6 text-3xl">2021</h2>
     {% assign all_posts_2021 = collections.post | reverse %}
     <ul class="mb-24">
       {% for post_2021 in all_posts_2021 %} {% assign year2021 = post_2021.date
@@ -59,7 +59,7 @@ layout: "layout.html"
       {% endif %} {% endfor %}
     </ul>
 
-    <h2 class="font-mono mb-6 text-2xl">2020</h2>
+    <h2 class="font-mono mb-6 text-3xl">2020</h2>
     {% assign all_posts_2020 = collections.post | reverse %}
     <ul class="mb-24">
       {% for post_2020 in all_posts_2020 %} {% assign year2020 = post_2020.date
