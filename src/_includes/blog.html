@@ -23,45 +23,55 @@ layout: "layout.html"
   <div class="mx-4 clg:mx-auto">
     <h2 class="mb-12">All Posts</h2>
 
-    <h2 class="font-mono mb-6 text-3xl">2024</h2>
+    <h2 class="font-mono mb-6 text-3xl" id="blog-year-2024">
+      <span class="sr-only">Posts from </span>2024
+    </h2>
     {% assign all_posts_2024 = collections.post | reverse %}
-    <ul class="mb-24">
+    <ul class="mb-24" aria-labelledby="blog-year-2024">
       {% for post_2024 in all_posts_2024 %} {% assign year2024 = post_2024.date
       | justYear:2024 %} {% if year2024 == "2024" %}
       <li><a href="{{ post_2024.url }}">{{ post_2024.data.title }}</a></li>
       {% endif %} {% endfor %}
     </ul>
 
-    <h2 class="font-mono mb-6 text-3xl">2023</h2>
+    <h2 class="font-mono mb-6 text-3xl" id="blog-year-2023">
+      <span class="sr-only">Posts from </span>2023
+    </h2>
     {% assign all_posts_2023 = collections.post | reverse %}
-    <ul class="mb-24">
+    <ul class="mb-24" aria-labelledby="blog-year-2023">
       {% for post_2023 in all_posts_2023 %} {% assign year2023 = post_2023.date
       | justYear:2023 %} {% if year2023 == "2023" %}
       <li><a href="{{ post_2023.url }}">{{ post_2023.data.title }}</a></li>
       {% endif %} {% endfor %}
     </ul>
 
-    <h2 class="font-mono mb-6 text-3xl">2022</h2>
+    <h2 class="font-mono mb-6 text-3xl" id="blog-year-2022">
+      <span class="sr-only">Posts from </span>2022
+    </h2>
     {% assign all_posts_2022 = collections.post | reverse %}
-    <ul class="mb-24">
+    <ul class="mb-24" aria-labelledby="blog-year-2022">
       {% for post_2022 in all_posts_2022 %} {% assign year2022 = post_2022.date
       | justYear:2022 %} {% if year2022 == "2022" %}
       <li><a href="{{ post_2022.url }}">{{ post_2022.data.title }}</a></li>
       {% endif %} {% endfor %}
     </ul>
 
-    <h2 class="font-mono mb-6 text-3xl">2021</h2>
+    <h2 class="font-mono mb-6 text-3xl" id="blog-year-2021">
+      <span class="sr-only">Posts from </span>2021
+    </h2>
     {% assign all_posts_2021 = collections.post | reverse %}
-    <ul class="mb-24">
+    <ul class="mb-24" aria-labelledby="blog-year-2021">
       {% for post_2021 in all_posts_2021 %} {% assign year2021 = post_2021.date
       | justYear:2021 %} {% if year2021 == "2021" %}
       <li><a href="{{ post_2021.url }}">{{ post_2021.data.title }}</a></li>
       {% endif %} {% endfor %}
     </ul>
 
-    <h2 class="font-mono mb-6 text-3xl">2020</h2>
+    <h2 class="font-mono mb-6 text-3xl" id="blog-year-2020">
+      <span class="sr-only">Posts from </span>2020
+    </h2>
     {% assign all_posts_2020 = collections.post | reverse %}
-    <ul class="mb-24">
+    <ul class="mb-24" aria-labelledby="blog-year-2020">
       {% for post_2020 in all_posts_2020 %} {% assign year2020 = post_2020.date
       | justYear:2020 %} {% if year2020 == "2020" %}
       <li><a href="{{ post_2020.url }}">{{ post_2020.data.title }}</a></li>
