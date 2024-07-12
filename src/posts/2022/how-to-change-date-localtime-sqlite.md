@@ -34,8 +34,9 @@ Then, we’ll need to prepare and write our SQL statement for PDO.
 
 ```sql
 $sql_created_at = $pdo->query(SELECT datetime(now, localtime));
-We store the returned value of the query in an $sql_created_at variable.
 ```
+
+We store the returned value of the query in an $sql_created_at variable.
 
 From here, we need to tell PDO how we want our data returned to us.
 
@@ -53,7 +54,7 @@ Now, we can loop through the `$rows` array and print out the date.
 
 ```sql
 foreach ($rows as $date) {
-echo $date;
+  echo $date;
 }
 ```
 

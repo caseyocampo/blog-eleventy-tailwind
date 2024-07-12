@@ -156,7 +156,6 @@ pre {
 
 pre code {
   @apply text-2xl;
-  text-wrap: wrap;
 }
 
 p code {
