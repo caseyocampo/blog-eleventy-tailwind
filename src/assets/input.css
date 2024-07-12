@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 @font-face {
-  font-family: "IBMPlexSansBold";
+  font-family: "IBMPlexSans";
   font-style: normal;
   font-weight: 700;
   font-display: swap;
@@ -11,7 +11,7 @@
 }
 
 @font-face {
-  font-family: "IBMPlexSansBold";
+  font-family: "IBMPlexSans";
   font-style: italic;
   font-weight: 700;
   font-display: swap;
@@ -19,7 +19,7 @@
 }
 
 @font-face {
-  font-family: "IBMPlexSansSemiBold";
+  font-family: "IBMPlexSans";
   font-style: italic;
   font-weight: 700;
   font-display: swap;
@@ -222,6 +222,11 @@ footer li {
 .post h3,
 .page h3 {
   @apply mt-8 mb-4;
+}
+
+p b,
+p strong {
+  @apply font-bold;
 }
 
 /* Homepage styles */
