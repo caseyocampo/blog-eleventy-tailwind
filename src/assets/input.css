@@ -242,7 +242,7 @@ a.site-title {
 
 article img,
 article .post img {
-  @apply mb-6 rounded-md w-full;
+  @apply mb-6 rounded-md shadow-md w-full;
   max-width: 600px;
 }
 
