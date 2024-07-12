@@ -21,15 +21,52 @@ layout: "layout.html"
 
 <section class="blog max-w-default mx-auto my-24">
   <div class="mx-4 clg:mx-auto">
-    <h2 class="mb-4">All Posts</h2>
-    <!--  original {% assign all_posts = collections.post | reverse %}
-  <ul class="list-disc list-inside">
-    {% for post in all_posts | reverse %}
-    <li>
-      <a href="{{ post.url }}">{{ post.data.title }}</a>
-    </li>
-    {% endfor %}
-  </ul> -->
+    <h2 class="mb-12">All Posts</h2>
+
+    <h3 class="mb-6">2024</h3>
+    {% assign all_posts_2024 = collections.post | reverse %}
+    <ul class="mb-24">
+      {% for post_2024 in all_posts_2024 %} {% assign year2024 = post_2024.date
+      | justYear:2024 %} {% if year2024 == "2024" %}
+      <li><a href="{{ post_2024.url }}">{{ post_2024.data.title }}</a></li>
+      {% endif %} {% endfor %}
+    </ul>
+
+    <h3 class="mb-6">2023</h3>
+    {% assign all_posts_2023 = collections.post | reverse %}
+    <ul class="mb-24">
+      {% for post_2023 in all_posts_2023 %} {% assign year2023 = post_2023.date
+      | justYear:2023 %} {% if year2023 == "2023" %}
+      <li><a href="{{ post_2023.url }}">{{ post_2023.data.title }}</a></li>
+      {% endif %} {% endfor %}
+    </ul>
+
+    <h3 class="mb-6">2022</h3>
+    {% assign all_posts_2022 = collections.post | reverse %}
+    <ul class="mb-24">
+      {% for post_2022 in all_posts_2022 %} {% assign year2022 = post_2022.date
+      | justYear:2022 %} {% if year2022 == "2022" %}
+      <li><a href="{{ post_2022.url }}">{{ post_2022.data.title }}</a></li>
+      {% endif %} {% endfor %}
+    </ul>
+
+    <h3 class="mb-6">2021</h3>
+    {% assign all_posts_2021 = collections.post | reverse %}
+    <ul class="mb-24">
+      {% for post_2021 in all_posts_2021 %} {% assign year2021 = post_2021.date
+      | justYear:2021 %} {% if year2021 == "2021" %}
+      <li><a href="{{ post_2021.url }}">{{ post_2021.data.title }}</a></li>
+      {% endif %} {% endfor %}
+    </ul>
+
+    <h3 class="mb-6">2020</h3>
+    {% assign all_posts_2020 = collections.post | reverse %}
+    <ul class="mb-24">
+      {% for post_2020 in all_posts_2020 %} {% assign year2020 = post_2020.date
+      | justYear:2020 %} {% if year2020 == "2020" %}
+      <li><a href="{{ post_2020.url }}">{{ post_2020.data.title }}</a></li>
+      {% endif %} {% endfor %}
+    </ul>
 
     <!-- don't delete {% assign all_posts = collections.post | reverse %} {% for post
   in all_posts %} {% assign currentdate = post.date | date: "%Y" %} {% if
@@ -41,7 +78,7 @@ layout: "layout.html"
   </ul>
   {% endfor %} -->
 
-    {% assign all_posts = collections.post | reverse %}
+    <!-- {% assign all_posts = collections.post | reverse %}
     <ul>
       {% for post in all_posts %} {% assign currentdate = post.date | date: "%Y"
       %} {% if currentdate != date %}
@@ -53,6 +90,6 @@ layout: "layout.html"
       {% assign date = currentdate %} {% endif %}
       <li><a href="{{ post.url }}">{{ post.data.title }}</a></li>
       {% endfor %}
-    </ul>
+    </ul> -->
   </div>
 </section>
