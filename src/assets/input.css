@@ -249,6 +249,10 @@ article .post img {
   font-family: "IBMPlexMono", monospace, sans-serif;
 }
 
+.font-mono {
+  @apply text-3xl;
+}
+
 /* Responsive styles */
 
 @media (max-width: 640px) {
@@ -285,7 +289,12 @@ article .post img {
   a.site-title {
     @apply text-3xl;
   }
+
   .date {
     @apply text-xl;
+  }
+
+  .font-mono {
+    @apply text-2xl;
   }
 }
