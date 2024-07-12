@@ -20,8 +20,8 @@
 
 @font-face {
   font-family: "IBMPlexSans";
-  font-style: italic;
-  font-weight: 700;
+  font-style: normal;
+  font-weight: 600;
   font-display: swap;
   src: url("/assets/fonts/IBMPlexSans-SemiBold.ttf");
 }
@@ -59,7 +59,7 @@
 }
 
 :root {
-  --font-heading: "IBMPlexSansBold";
+  --font-heading: "IBMPlexSans";
   --font-base: "IBMPlexSans";
   --primary-color: #292524;
   --secondary-color: #f5f5f4;
@@ -77,20 +77,21 @@ article {
 h1,
 h2,
 h3 {
-  font-family: var(--font-heading), system-ui, sans-serif;
+  @apply font-bold;
+  font-family: var(--font-base), system-ui, sans-serif;
   color: var(--primary-color);
 }
 
 h1 {
-  @apply text-7xl font-black;
+  @apply text-7xl;
 }
 
 h2 {
-  @apply text-6xl font-black;
+  @apply text-6xl;
 }
 
 h3 {
-  @apply text-3xl font-black;
+  @apply text-3xl;
 }
 
 p,
@@ -232,7 +233,7 @@ p strong {
 /* Homepage styles */
 
 a.site-title {
-  @apply font-semibold text-4xl no-underline;
+  @apply font-bold text-4xl no-underline;
   font-family: var(--font-heading), system-ui, sans-serif;
 }
 

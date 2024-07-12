@@ -8,7 +8,7 @@ permalink: "/posts/install-imagick-on-mac-for-php-8-0-8-and-mamp/"
 
 A straightforward guide to installing Imagick on a Mac using PHP 8.0.8 and MAMP.
 
-## Step #1 – Install php
+## Step 1 – Install php
 
 Install php via Homebrew.
 
@@ -16,7 +16,7 @@ Install php via Homebrew.
 brew install php
 ```
 
-## Step #2 – Install Imagick directly from the repo
+## Step 2 – Install Imagick directly from the repo
 
 Be sure to run these commands one by one.
 
@@ -30,7 +30,7 @@ make install
 
 Here is a [YouTube video that shows Step 2 in action](https://www.youtube.com/watch?v=W2kfP9XwiNs).
 
-## Step #3 – Enable imagick.so in MAMP’s php.ini file
+## Step 3 – Enable imagick.so in MAMP’s php.ini file
 
 It is located in `MAMP > bin > php > php8.0.8 > conf > php.ini`
 
@@ -42,7 +42,7 @@ Remove the semicolon to enable the **imagick.so** extension.
 
 ![extension=imagick.so in php.ini file](/posts/2023/img/extensionimagick.png)
 
-## Step #4 – Restart the php services
+## Step 4 – Restart the php services
 
 Restart php services via Homebrew command.
 
@@ -50,7 +50,7 @@ Restart php services via Homebrew command.
 brew services restart php
 ```
 
-## Step #5 – Verify that imagick shows up in phpinfo
+## Step 5 – Verify that imagick shows up in phpinfo
 
 Launch MAMP and check the phpinfo by going to Tools > phpInfo.
 
