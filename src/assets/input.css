@@ -1,3 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 @font-face {
   font-family: "IBMPlexSans";
   font-style: normal;
@@ -53,10 +57,6 @@
   font-display: swap;
   src: url("/assets/fonts/IBMPlexMono-Bold.ttf") format("truetype");
 }
-
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
 
 :root {
   --font-heading: "IBMPlexSans";
