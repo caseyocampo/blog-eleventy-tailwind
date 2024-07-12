@@ -1,6 +1,6 @@
 ---
-title: "What I'm up to now"
-page-title: "What I'm up to now"
+title: "What I'm up to right now"
+page-title: "What I'm up to right now"
 description:
 tags: "page"
 permalink: "/now/"
