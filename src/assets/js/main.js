@@ -38,7 +38,7 @@ for (let i = 0; i < navLinks.length; i++) {
   }
 }
 
-// Dark Mode
+// Dark and Light Mode
 const toggleThemeBtn = document.getElementById("toggleTheme");
 const themeAnnouncement = document.getElementById("themeAnnouncement");
 const sun = document.getElementById("sun");
