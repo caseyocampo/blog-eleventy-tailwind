@@ -12,13 +12,13 @@ layout: "layout.html"
     <p
       class="font-mono text-xl text-stone-600 max-w-default mx-auto mt-12 sm:text-2xl dark:text-stone-300"
     >
-      Published on {{ page.date | postDate }}
+      Posted on {{ page.date | postDate }}
     </p>
     <div class="mb-12 post">
       {% if description %}
       <p>{{ description }}</p>
       {% endif %}
     </div>
-    <div class="post max-w-default mx-auto pb-24">{{ content }}</div>
+    <div class="post max-w-default mx-auto pb-14 sm:pb-24">{{ content }}</div>
   </div>
 </article>
