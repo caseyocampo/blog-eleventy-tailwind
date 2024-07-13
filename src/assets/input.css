@@ -104,6 +104,10 @@ article ul {
   @apply list-outside list-disc ml-6 my-12;
 }
 
+li::marker {
+  @apply text-orange-700 dark:text-orange-600;
+}
+
 main h3 {
   @apply mt-8 mb-4;
 }
@@ -185,6 +189,6 @@ strong {
   }
 
   .font-mono {
-    @apply text-2xl;
+    @apply text-xl;
   }
 }
