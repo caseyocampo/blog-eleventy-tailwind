@@ -156,7 +156,7 @@ strong {
 
 .description,
 .description a {
-  @apply text-stone-600 dark:text-stone-300;
+  @apply text-stone-600 dark:text-orange-50;
 }
 
 /* Responsive Styles */
