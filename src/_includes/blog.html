@@ -3,11 +3,13 @@ layout: "layout.html"
 ---
 
 <section>
-  <section class="bg-secondary border-b border-stone-200">
+  <section class="bg-secondary border-b border-stone-200 dark:border-stone-800">
     <div class="max-w-default mx-auto pb-12 pt-24">
       <div class="mx-4 clg:mx-auto">
         <h1>{{ title }}</h1>
-        <p class="text-stone-600 description">{{ description }}</p>
+        <p class="description text-stone-600 dark:text-oranege-100">
+          {{ description }}
+        </p>
       </div>
     </div>
   </section>
@@ -19,7 +21,7 @@ layout: "layout.html"
 </div>
 {% endif %}
 
-<section class="blog max-w-default mx-auto my-24">
+<section class="blog max-w-default mx-auto py-24">
   <div class="mx-4 clg:mx-auto">
     <h2 class="mb-12">All Posts</h2>
 

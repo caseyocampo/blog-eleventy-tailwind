@@ -3,14 +3,14 @@ layout: "layout.html"
 ---
 
 <article class="mx-auto">
-  <section class="bg-secondary border-b border-stone-200">
+  <section class="bg-secondary border-b border-stone-200 dark:border-stone-800">
     <div class="mx-4 clg:mx-auto">
       <h1 class="max-w-default mx-auto pb-12 pt-24">{{ title }}</h1>
     </div>
   </section>
   <div class="mx-4 clg:mx-auto">
     <p
-      class="font-mono text-xl text-stone-600 max-w-default mx-auto mt-12 sm:text-2xl"
+      class="font-mono text-xl text-stone-600 max-w-default mx-auto mt-12 sm:text-2xl dark:text-stone-300"
     >
       Published on {{ page.date | postDate }}
     </p>
@@ -19,6 +19,6 @@ layout: "layout.html"
       <p>{{ description }}</p>
       {% endif %}
     </div>
-    <div class="post max-w-default mx-auto mb-24">{{ content }}</div>
+    <div class="post max-w-default mx-auto pb-24">{{ content }}</div>
   </div>
 </article>

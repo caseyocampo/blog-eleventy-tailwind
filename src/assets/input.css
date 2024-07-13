@@ -21,7 +21,7 @@ article {
 h1,
 h2,
 h3 {
-  @apply font-bold text-stone-800;
+  @apply font-bold text-stone-800 dark:text-orange-50;
   font-family: var(--font-base), system-ui, sans-serif;
 }
 
@@ -42,28 +42,33 @@ a,
 li,
 button,
 span {
-  @apply text-3xl text-stone-800;
+  @apply text-3xl text-stone-800 dark:text-orange-50;
   font-family: var(--font-base), system-ui, sans-serif;
 }
 
 a {
-  @apply underline text-3xl text-stone-800;
+  @apply underline text-3xl text-stone-800 dark:text-orange-50;
 }
 
 header {
-  @apply bg-stone-100;
+  @apply bg-stone-100 border-b border-stone-200 dark:bg-stone-900 dark:border-stone-800;
 }
 
 header nav ul li a {
-  @apply text-2xl py-2 px-4 bg-stone-100 rounded-md no-underline transition-all;
+  @apply text-2xl py-2 px-4 bg-stone-100 rounded-md no-underline dark:bg-stone-900;
 }
 
 header nav ul li a:hover {
-  @apply bg-stone-200;
+  @apply bg-stone-200 dark:bg-stone-800;
 }
 
 header nav ul li a.current-link {
-  @apply bg-stone-200;
+  @apply bg-stone-200 dark:bg-stone-800;
+}
+
+main,
+footer {
+  @apply dark:bg-stone-900;
 }
 
 main article h2 {
@@ -76,11 +81,11 @@ img {
 
 footer a:hover,
 main a:hover {
-  @apply text-orange-700;
+  @apply text-orange-700 dark:text-orange-400;
 }
 
 pre {
-  @apply mb-4 rounded-md p-4 inline-block w-full bg-stone-800 text-slate-100 overflow-x-scroll;
+  @apply mb-4 rounded-md p-4 inline-block w-full bg-stone-800 text-slate-100 overflow-x-scroll dark:bg-stone-900;
   font-family: var(--font-mono), monospace;
   -webkit-overflow-scrolling: touch;
 }
@@ -90,7 +95,7 @@ pre code {
 }
 
 p code {
-  @apply inline-block text-2xl bg-stone-200 px-1 rounded-sm;
+  @apply inline-block text-2xl bg-stone-200 px-1 rounded-sm dark:bg-stone-700;
   font-family: var(--font-mono), monospace;
 }
 
@@ -130,7 +135,7 @@ strong {
 }
 
 .bg-secondary {
-  @apply bg-stone-100;
+  @apply bg-stone-100 dark:bg-stone-900;
 }
 
 .skip-link {
@@ -147,7 +152,7 @@ strong {
 
 .description,
 .description a {
-  @apply text-stone-600;
+  @apply text-stone-600 dark:text-stone-300;
 }
 
 /* Responsive Styles */

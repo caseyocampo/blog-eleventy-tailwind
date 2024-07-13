@@ -37,3 +37,63 @@ for (let i = 0; i < navLinks.length; i++) {
     navLinks[i].classList.add("current-link");
   }
 }
+
+// Dark Mode
+const toggleThemeBtn = document.getElementById("toggleTheme");
+const themeAnnouncement = document.getElementById("themeAnnouncement");
+const sun = document.getElementById("sun");
+const moon = document.getElementById("moon");
+const themeBtnText = document.getElementById("themeBtnText");
+let currentTheme = localStorage.getItem("theme");
+
+if (currentTheme === "dark") {
+  toggleThemeBtn.setAttribute("aria-label", "Switch to light mode");
+  themeAnnouncement.textContent = "Dark mode is enabled";
+  themeBtnText.textContent = "Switch to light mode";
+} else {
+  toggleThemeBtn.setAttribute("aria-label", "Switch to dark mode");
+  themeAnnouncement.textContent = "Light mode is enabled";
+  themeBtnText.textContent = "Switch to dark mode";
+}
+
+toggleThemeBtn.addEventListener("click", () => {
+  if (currentTheme === "light") {
+    document.documentElement.classList.add("dark");
+    localStorage.setItem("theme", "dark");
+    currentTheme = "dark";
+    toggleThemeBtn.setAttribute("aria-label", "Switch to light mode");
+    themeAnnouncement.textContent = "Dark mode is enabled";
+    themeBtnText.textContent = "Switch to light mode";
+    moon.classList.add("hidden");
+    sun.classList.remove("hidden");
+    sun.classList.add("block");
+  } else {
+    document.documentElement.classList.remove("dark");
+    localStorage.setItem("theme", "light");
+    currentTheme = "light";
+    toggleThemeBtn.setAttribute("aria-label", "Switch to dark mode");
+    themeAnnouncement.textContent = "Light mode is enabled";
+    themeBtnText.textContent = "Switch to dark mode";
+    moon.classList.remove("hidden");
+    moon.classList.add("block");
+    sun.classList.add("hidden");
+  }
+});
+
+// On page load or when changing themes,
+// best to add inline in `head` to avoid FOUC
+if (
+  localStorage.theme === "dark" ||
+  (!("theme" in localStorage) &&
+    window.matchMedia("(prefers-color-scheme: dark)").matches)
+) {
+  document.documentElement.classList.add("dark");
+  moon.classList.add("hidden");
+  sun.classList.remove("hidden");
+  sun.classList.add("block");
+} else {
+  document.documentElement.classList.remove("dark");
+  moon.classList.remove("hidden");
+  moon.classList.add("block");
+  sun.classList.add("hidden");
+}
