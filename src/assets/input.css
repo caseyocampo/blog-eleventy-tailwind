@@ -187,8 +187,4 @@ strong {
   .about-description a {
     @apply text-2xl;
   }
-
-  .font-mono {
-    @apply text-xl;
-  }
 }
