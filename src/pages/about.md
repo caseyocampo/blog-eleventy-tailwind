@@ -39,7 +39,7 @@ My support tickets looked a little like this:
 
 Eventually, I started to pick up the lingo.
 
-I figured out that “spacing” could either mean “padding” or “margin”.And “this color” was actually a pound sign followed by some crazy string of six digits; this madness is what developers call a hex color code.
+I figured out that “spacing” could either mean “padding” or “margin”. And “this color” was actually a pound sign followed by some crazy string of six digits; this madness is what developers call a hex color code.
 
 Conversations like this are what sparked my interest in coding for a living.
 
