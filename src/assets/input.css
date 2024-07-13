@@ -4,11 +4,8 @@
 @import "/assets/fonts/fonts.css";
 
 :root {
-  --font-heading: "IBMPlexSans";
   --font-base: "IBMPlexSans";
-  --primary-color: #292524;
-  --secondary-color: #f5f5f4;
-  --code-bg: #292524;
+  --font-mono: "IBMPlexMono";
 }
 
 /* Base Styles */
@@ -18,15 +15,14 @@ header,
 body,
 section,
 article {
-  color: var(--primary-color);
+  @apply text-stone-800;
 }
 
 h1,
 h2,
 h3 {
-  @apply font-bold;
+  @apply font-bold text-stone-800;
   font-family: var(--font-base), system-ui, sans-serif;
-  color: var(--primary-color);
 }
 
 h1 {
@@ -46,18 +42,16 @@ a,
 li,
 button,
 span {
-  @apply text-3xl;
+  @apply text-3xl text-stone-800;
   font-family: var(--font-base), system-ui, sans-serif;
-  color: var(--primary-color);
 }
 
 a {
-  @apply underline text-3xl;
-  color: var(--primary-color);
+  @apply underline text-3xl text-stone-800;
 }
 
 header {
-  background-color: var(--secondary-color);
+  @apply bg-stone-100;
 }
 
 header nav ul li a {
@@ -86,11 +80,8 @@ main a:hover {
 }
 
 pre {
-  @apply mb-4 rounded-md p-4 inline-block w-full;
-  background: var(--code-bg);
-  color: var(--secondary-color);
-  font-family: "IBMPlexMono", monospace;
-  overflow-x: scroll;
+  @apply mb-4 rounded-md p-4 inline-block w-full bg-stone-800 text-slate-100 overflow-x-scroll;
+  font-family: var(--font-mono), monospace;
   -webkit-overflow-scrolling: touch;
 }
 
@@ -100,7 +91,7 @@ pre code {
 
 p code {
   @apply inline-block text-2xl bg-stone-200 px-1 rounded-sm;
-  font-family: "IBMPlexMono", monospace;
+  font-family: var(--font-mono), monospace;
 }
 
 main ul,
@@ -116,8 +107,7 @@ main p,
 main a,
 main li,
 footer li {
-  @apply mb-6;
-  line-height: 1.25;
+  @apply mb-6 leading-snug;
 }
 
 article img {
@@ -136,11 +126,11 @@ strong {
 /* Custom Style */
 
 .font-mono {
-  font-family: "IBMPlexMono", monospace, sans-serif;
+  font-family: var(--font-mono), monospace, sans-serif;
 }
 
 .bg-secondary {
-  background-color: var(--secondary-color);
+  @apply bg-stone-100;
 }
 
 .skip-link {
@@ -149,7 +139,6 @@ strong {
 
 .skip-link:focus {
   @apply opacity-100 z-10;
-  transform: translateY(0);
 }
 
 .about-description a {
