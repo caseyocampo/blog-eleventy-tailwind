@@ -51,7 +51,7 @@ a {
 }
 
 header {
-  @apply bg-stone-100 border-b border-stone-200 dark:bg-stone-900 dark:border-stone-800;
+  @apply bg-stone-100 border-b border-stone-200 dark:bg-stone-900 dark:border-stone-700;
 }
 
 header nav ul li a {
