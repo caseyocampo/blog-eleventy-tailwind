@@ -62,10 +62,21 @@ layout: "layout.html"
       <span class="sr-only">Posts from </span>2020
     </h2>
     {% assign all_posts_2020 = collections.post | reverse %}
-    <ul class="mb-0" aria-labelledby="blog-year-2020">
+    <ul class="mb-24" aria-labelledby="blog-year-2020">
       {% for post_2020 in all_posts_2020 %} {% assign year2020 = post_2020.date
       | justYear:2020 %} {% if year2020 == "2020" %}
       <li><a href="{{ post_2020.url }}">{{ post_2020.data.title }}</a></li>
+      {% endif %} {% endfor %}
+    </ul>
+
+    <h2 class="font-mono mb-6 text-3xl" id="blog-year-2019">
+      <span class="sr-only">Posts from </span>2019
+    </h2>
+    {% assign all_posts_2019 = collections.post | reverse %}
+    <ul class="mb-0" aria-labelledby="blog-year-2019">
+      {% for post_2019 in all_posts_2019 %} {% assign year2019 = post_2019.date
+      | justYear:2019 %} {% if year2019 == "2019" %}
+      <li><a href="{{ post_2019.url }}">{{ post_2019.data.title }}</a></li>
       {% endif %} {% endfor %}
     </ul>
   </div>

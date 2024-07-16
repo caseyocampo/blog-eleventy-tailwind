@@ -1,6 +1,6 @@
 ---
 title: "SVG Export Settings for Custom CSS Animations in Adobe Illustrator"
-description: "Sometimes, well most of the time, when you learn something new it's best to write it down to further solidify that knowledge."
+description:
 tags: "post"
 date: "2019-02-25"
 permalink: "/posts/svg-export-settings-custom-css-animations/"
