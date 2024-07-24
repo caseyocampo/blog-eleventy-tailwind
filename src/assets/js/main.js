@@ -16,7 +16,6 @@ function toggleMenu() {
 }
 
 // Style active nav link
-
 let currentUrl = window.location.href;
 
 // Function to extract the slug from the URL

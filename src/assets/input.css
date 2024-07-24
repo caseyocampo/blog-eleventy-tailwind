@@ -79,9 +79,16 @@ img {
   height: auto;
 }
 
-footer a:hover,
+main a {
+  @apply text-orange-700 dark:text-orange-500;
+}
+
 main a:hover {
-  @apply text-orange-700 dark:text-orange-400;
+  @apply text-orange-800 dark:text-orange-400;
+}
+
+footer a:hover {
+  @apply text-orange-800 dark:text-orange-400;
 }
 
 pre {
