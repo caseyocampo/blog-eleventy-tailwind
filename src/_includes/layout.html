@@ -9,7 +9,11 @@
         description
       }}{% else %}Casey Ocampo{% endif %}"
     />
-
+    <meta
+      property="og:image"
+      content="https://www.caseyocampo.com/img/11ty-tailwind.png"
+    />
+    <meta property="og:image:type" content="image/png" />
     <title>
       {% if page-title %} {{ page-title }} {% elsif title %} {{ title }} {% else
       %} Casey Ocampo's website {% endif %}
@@ -72,10 +76,6 @@
     />
     <link rel="icon" type="image/x-icon" href="/icons/favicon-512.png" />
     <link rel="apple-touch-icon" href="/icons/apple-touch-icon.png" />
-    <meta
-      property="og:image"
-      content="https://www.caseyocampo.com/img/11ty-tailwind.webp"
-    />
     <meta name="generator" content="Eleventy" />
   </head>
   <header class="px-4 py-4 sm:py-6">
