@@ -17,7 +17,7 @@ That said, I do still enjoy reading about what people are up to and sharing what
 - Recovering from a concussion, banged up elbow and knee thanks to my first rough mountain bike fall
 - Got all of the bathrooms in our house renovated!
 - Gaining way too much weight since being cooped up in the house recovering
-- Tinkering around with the <a href="https://pokeapi.co/" target="_blank">https://pokeapi.co/ {% newtab %}</a> API and the JavaScript fetch API
+- Tinkering around with the <a href="https://pokeapi.co/" target="_blank">Pokémon API {% newtab %}</a> and the JavaScript fetch API
 
 ## Previous updates
 
