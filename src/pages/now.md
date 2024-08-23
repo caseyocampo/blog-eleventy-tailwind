@@ -14,7 +14,7 @@ Well, I don't have social media (except [Linkedin](https://www.linkedin.com/in/c
 
 That said, I do still enjoy reading about what people are up to and sharing what I'm up to! So, here's a bit of what's going on in my life _right now_:
 
-- Recovering from a concussion, banged up elbow and knee thanks to my first rough mountain bike fall
+- Recovering from a concussion, banged up elbow and knee thanks to my first rough mountain bike crash
 - Got all of the bathrooms in our house renovated!
 - Saw the new Alien Romulus movie with my partner - was pretty good!
 - Gaining way too much weight since being cooped up in the house recovering
