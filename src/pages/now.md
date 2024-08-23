@@ -19,7 +19,7 @@ That said, I do still enjoy reading about what people are up to and sharing what
 - Saw the new Alien Romulus movie with my partner
 - Gaining way too much weight since being cooped up in the house recovering
 - Tinkering around with the <a href="https://pokeapi.co/" target="_blank">Pokémon API {% newtab %}</a> and the JavaScript fetch API
-- Researching and buying bike safety gear - I bought Leatt Impact Shorts, Leatt Airflex Body Armor, and IXS Carve Elbow Pads. I already bought a new IXS full face helmet and POC VPD knee pads!
+- Researching and buying bike safety gear - I bought Leatt Impact Shorts, Leatt Airflex Body Armor, and IXS Carve Elbow Pads. I already bought a new IXS full face helmet (cracked my old one) and POC VPD knee pads!
 
 ## Previous updates
 
