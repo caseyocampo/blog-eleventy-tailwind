@@ -161,8 +161,7 @@ strong {
   @apply text-3xl;
 }
 
-.description,
-.description a {
+.description {
   @apply text-stone-600 dark:text-orange-50;
 }
 
