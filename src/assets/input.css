@@ -37,6 +37,23 @@ h3 {
   @apply text-3xl;
 }
 
+details {
+  @apply rounded-md my-8 border border-stone-200 dark:border-stone-700;
+}
+
+.page details ul {
+  @apply ml-8 p-4;
+}
+
+details summary {
+  @apply cursor-pointer p-4;
+}
+
+details[open] summary {
+  @apply mb-0 border-b border-stone-200 dark:border-stone-700;
+}
+
+details,
 p,
 a,
 li,
