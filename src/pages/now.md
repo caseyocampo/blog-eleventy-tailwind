@@ -10,7 +10,7 @@ permalink: "/now/"
 
 ## What's the deal with this "now" page?
 
-Well, I don't have social media (except [Linkedin](https://www.linkedin.com/in/caseyocampo/) if you count that) - I used to be on it all the time but it's just not my thing anymore. Here are a few things that helped me shape my decision to leave: check out Cal Newport's post <a href="https://calnewport.com/on-digital-minimalism/" target="_blank">On Digital Minimalism {% newtab %}</a> or his Ted Talk <a href="https://www.youtube.com/watch?v=3E7hkPZ-HTk" target="_blank">Quit social media {% newtab %}</a>).
+Well, I don't have social media (except [Linkedin](https://www.linkedin.com/in/caseyocampo/) if you count that) - I used to be on it all the time but it's just not my thing anymore. Cal Newport said it best in his Ted Talk <a href="https://www.youtube.com/watch?v=3E7hkPZ-HTk" target="_blank">Quit social media {% newtab %}</a> and in his post <a href="https://calnewport.com/on-digital-minimalism/" target="_blank">On Digital Minimalism {% newtab %}</a>.
 
 That said, I do still enjoy reading about what people are up to and sharing what I'm up to! So, here's a bit of what's going on in my life _right now_:
 
