@@ -20,6 +20,11 @@ Anyway, I do still enjoy reading about what people are up to and sharing what I'
 - Gaining way too much weight since being cooped up in the house recovering
 - Tinkering around with the <a href="https://pokeapi.co/" target="_blank">Pokémon API {% newtab %}</a> and the JavaScript fetch API
 - Researching and buying bike safety gear - I bought Leatt Impact Shorts, Leatt Airflex Body Armor, and IXS Carve Elbow Pads. I already bought a new IXS full face helmet (cracked my old one) and have POC VPD knee pads!
+- Upgrade my stock Stout crankset for a Hollowtech crankset
+
+<section>
+<img src="/img/2024-0831-rockhopper.jpg" alt="2023 Specialized Rockhopper with upgrades" />
+</section>
 
 ## Previous updates
 
