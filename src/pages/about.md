@@ -87,6 +87,6 @@ As I continue my journey in this field, I find myself remaining curious about we
 
 - I can solve a 3-by-3 Rubik’s cube
 - I won the <a href="/img/powerlifting.pdf" target="_blank">gold medal in USAPL powerlifting {% newtab %}</a>
-- I am <a href="https://www.google.com/search?q=Time+Magazine%E2%80%99s+2006+Person+of+the+Year&sourceid=chrome&ie=UTF-8" target="_blank">Time Magazine’s 2006 Person of the Year {% newtab %}</a>
+- I am Time Magazine’s 2006 Person of the Year
 
 Want to learn more? I have a <a href="https://www.linkedin.com/in/caseyocampo/" target="_blank">LinkedIn page {% newtab %}</a> that I check regularly. You can message me there! If your message doesn’t seem like spam, I’ll likely reply.
