@@ -10,9 +10,9 @@ permalink: "/now/"
 
 ## What's the deal with this "now" page?
 
-Well, I don't have social media (except [Linkedin](https://www.linkedin.com/in/caseyocampo/) if you count that) - I used to be on it all the time but it's just not my thing anymore. Cal Newport said it best in his Ted Talk <a href="https://www.youtube.com/watch?v=3E7hkPZ-HTk" target="_blank">Quit social media {% newtab %}</a> and in his post <a href="https://calnewport.com/on-digital-minimalism/" target="_blank">On Digital Minimalism {% newtab %}</a>.
+_This page was inspired by <a href="https://nownownow.com/about" target="_blank">Derek Sivers’ nownownow.com {% newtab %}</a>. I first learned about it from reading his books and blog. Then, I stumbled upon <a href="https://www.tempertemper.net/now" target="_blank">tempertemper.net 's "now" page {% newtab %}</a> which I took as a friendly reminder to make one myself!_
 
-Anyway, I do still enjoy reading about what people are up to and sharing what I'm up to! So, here's a bit of what's going on in my life _right now_:
+That said, here's a bit of what's going on in my life _right now_:
 
 - Recovering from a concussion, banged up elbow and knee thanks to my first rough mountain bike crash
 - Got all of the bathrooms in our house renovated!
@@ -40,4 +40,6 @@ Anyway, I do still enjoy reading about what people are up to and sharing what I'
 
 </details>
 
-_This page was inspired by <a href="https://nownownow.com/about" target="_blank">Derek Sivers’ nownownow.com {% newtab %}</a>. I first learned about it from reading his books and blog. Then, I stumbled upon <a href="https://www.tempertemper.net/now" target="_blank">tempertemper.net 's "now" page {% newtab %}</a> which I took as a friendly reminder to make one myself!_
+<hr aria-hidden="true" style="margin: 4rem 0;" />
+
+**P.S.** I don't have social media (except [Linkedin](https://www.linkedin.com/in/caseyocampo/) if you count that). I used to be on it all the time but it's just not my thing anymore. Cal Newport said it best in his Ted Talk <a href="https://www.youtube.com/watch?v=3E7hkPZ-HTk" target="_blank">Quit social media {% newtab %}</a> and in his post <a href="https://calnewport.com/on-digital-minimalism/" target="_blank">On Digital Minimalism {% newtab %}</a>.
