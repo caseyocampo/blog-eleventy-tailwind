@@ -15,10 +15,10 @@ Here are some reasons to contact me:
 - Constructive feedback
 - Questions and/or comments
 
-Note: when I started this website I added a contact form on this page for these types of inquiries. Since then, I’ve gotten enough spam (even with the reCAPTCHA tool on) to steer me away from keeping a contact form on here.
+**Note**: when I started this website I added a contact form on this page for these types of inquiries. Since then, I’ve gotten enough spam (even with the reCAPTCHA tool on) to steer me away from keeping a contact form on here.
 
 So, I’m directing all queries to my LinkedIn account.
 
 ## How to Get in Touch
 
-Find me on <a href="https://www.linkedin.com/in/caseyocampo/" target="_blank">LinkedIn {% newtab %}</a>. You can connect and send me a message there. I’ll do my best to get back to you as soon as practical.
+Find me on <a href="https://www.linkedin.com/in/caseyocampo/" target="_blank">LinkedIn {% newtab %}</a>. You can connect and send me a message there. I’ll do my best to get back to you ( ... if you don't sound like spam).
