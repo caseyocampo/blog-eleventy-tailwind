@@ -6,7 +6,7 @@ tags: "page"
 permalink: "/about/"
 ---
 
-I work as a full-time Accessibility Engineer and I love it. I also enjoy learning more about [accessibility and web development](/certifications/), creating projects, and writing about things I’ve learned online.
+I work as a full-time Accessibility Engineer and I love it. I also enjoy learning more about [accessibility and web development](/certifications/), [creating projects](/projects/), and writing about things I’ve learned online.
 
 When I’m not working my day job or coding side projects, I like to keep my brain and body active.
 
