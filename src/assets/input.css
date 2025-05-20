@@ -38,7 +38,7 @@ h3 {
 }
 
 details {
-  @apply rounded-md border border-stone-200 dark:border-stone-700;
+  @apply rounded-md border border-stone-200 dark:border-stone-700 mb-4;
 }
 
 .page details ul {

@@ -6,9 +6,21 @@ tags: "page"
 permalink: "/now/"
 ---
 
-<span class="font-mono text-xl text-stone-600 sm:text-2xl dark:text-stone-300">Last updated May 6th, 2025</span>
+This page was inspired by <a href="https://nownownow.com/about" target="_blank">Derek Sivers’ nownownow.com {% newtab %}</a>.
 
-## Here's a bit of what's going on in my life <a href="#right-now" class="text-3xl">_right now_</a>:
+<hr aria-hidden="true" class="border-t-0 border-b-0 border-stone-200 dark:border-stone-700" style="margin: 4rem 0; height: 0.5px" />
+
+<span class="font-mono text-xl text-stone-600 sm:text-2xl dark:text-stone-300">Last updated May 20th, 2025</span>
+
+## Here's a bit of what's going on in my life right now:
+
+- Building out my budgeting app TallyPad
+- Recovering from unknown respiratory issues!
+- Using my pool on weekends to cool off from the Florida heat
+- Taking my motorcycle (a 2025 Ninja 500) on Sunday morning rides (check out <a href="https://www.youtube.com/@RideWithCasey" target="_blank">my YouTube channel for more rides and bike stuff! <span aria-label=", opens in a new tab">↗</span></a>)
+- Swapping out the original seat post for a PNW dropper post on my Ozark Trail Ridge mountain bike
+
+<img src="/img/2025-ninja-500.png" alt="Riding my Ninja 500 with my brother" class="mx-auto mb-8" />
 
 ## Previous updates
 
@@ -39,10 +51,6 @@ permalink: "/now/"
 - Learning more about <a href="https://www.11ty.dev/" target="_blank">Eleventy {% newtab %}</a>
 
 </details>
-
-<div id="right-now"></div>
-
-This page was inspired by <a href="https://nownownow.com/about" target="_blank">Derek Sivers’ nownownow.com {% newtab %}</a>. I first learned about it from reading his books and blog. Then, I stumbled upon <a href="https://www.tempertemper.net/now" target="_blank">tempertemper.net 's "now" page {% newtab %}</a> which I took as a friendly reminder to make one myself!
 
 <hr aria-hidden="true" class="border-t-0 border-b-0 border-stone-200 dark:border-stone-700" style="margin: 4rem 0; height: 0.5px" />
 
