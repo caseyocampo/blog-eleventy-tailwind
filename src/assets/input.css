@@ -129,7 +129,7 @@ article ul {
 }
 
 li::marker {
-  @apply text-orange-700 dark:text-orange-600;
+  @apply text-slate-700 dark:text-slate-400;
 }
 
 main h3 {
