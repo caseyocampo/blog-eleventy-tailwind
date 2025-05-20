@@ -96,3 +96,11 @@ if (
   moon.classList.add("block");
   sun.classList.add("hidden");
 }
+
+// Display current year
+document.addEventListener("DOMContentLoaded", () => {
+  const yearElement = document.getElementById("currentYear");
+  if (yearElement) {
+    yearElement.textContent = new Date().getFullYear();
+  }
+});

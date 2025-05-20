@@ -6,13 +6,14 @@ tags: "page"
 permalink: "/now/"
 ---
 
-<span class="font-mono text-xl text-stone-600 sm:text-2xl dark:text-stone-300">Last updated August 22, 2024</span>
+<span class="font-mono text-xl text-stone-600 sm:text-2xl dark:text-stone-300">Last updated May 6th, 2025</span>
 
-## What's the deal with this "now" page?
+## Here's a bit of what's going on in my life <a href="#right-now" class="text-3xl">_right now_</a>:
 
-_This page was inspired by <a href="https://nownownow.com/about" target="_blank">Derek Sivers’ nownownow.com {% newtab %}</a>. I first learned about it from reading his books and blog. Then, I stumbled upon <a href="https://www.tempertemper.net/now" target="_blank">tempertemper.net 's "now" page {% newtab %}</a> which I took as a friendly reminder to make one myself!_
+## Previous updates
 
-That said, here's a bit of what's going on in my life _right now_:
+<details class="border-stone-200 dark:border-stone-700">
+ <summary>August 22, 2024</summary>
 
 - Recovering from a concussion, banged up elbow and knee thanks to my first rough mountain bike crash
 - Got all of the bathrooms in our house renovated!
@@ -23,12 +24,11 @@ That said, here's a bit of what's going on in my life _right now_:
 - Upgraded my stock Stout square tapered crankset for a Hollowtech crankset
 
 <section>
-<img src="/img/2024-0831-rockhopper.jpg" alt="2023 Specialized Rockhopper with upgrades" />
+<img src="/img/2024-0831-rockhopper.jpg" alt="2023 Specialized Rockhopper with upgrades" class="mx-auto mb-8" />
 </section>
+</details>
 
-## Previous updates
-
-<details class="border-stone-200 dark:border-stone-700">
+<details class="border-stone-200 dark:border-stone-700 mb-12">
  <summary>June 29, 2024</summary>
 
 - Taking up a new hobby, mountain biking, for the last few months
@@ -39,6 +39,10 @@ That said, here's a bit of what's going on in my life _right now_:
 - Learning more about <a href="https://www.11ty.dev/" target="_blank">Eleventy {% newtab %}</a>
 
 </details>
+
+<div id="right-now"></div>
+
+This page was inspired by <a href="https://nownownow.com/about" target="_blank">Derek Sivers’ nownownow.com {% newtab %}</a>. I first learned about it from reading his books and blog. Then, I stumbled upon <a href="https://www.tempertemper.net/now" target="_blank">tempertemper.net 's "now" page {% newtab %}</a> which I took as a friendly reminder to make one myself!
 
 <hr aria-hidden="true" class="border-t-0 border-b-0 border-stone-200 dark:border-stone-700" style="margin: 4rem 0; height: 0.5px" />
 
