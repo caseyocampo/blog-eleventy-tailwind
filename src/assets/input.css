@@ -1,12 +1,12 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-@import "/assets/fonts/fonts.css";
+/* @import "/assets/fonts/fonts.css";
 
 :root {
   --font-base: "IBMPlexSans";
   --font-mono: "IBMPlexMono";
-}
+} */
 
 /* Base Styles */
 
@@ -21,8 +21,10 @@ article {
 h1,
 h2,
 h3 {
+  /* @apply font-bold text-stone-800 dark:text-orange-50;
+  font-family: var(--font-base), system-ui, sans-serif; */
   @apply font-bold text-stone-800 dark:text-orange-50;
-  font-family: var(--font-base), system-ui, sans-serif;
+  font-family: system-ui, sans-serif;
 }
 
 h1 {
