@@ -165,6 +165,10 @@ strong {
   @apply list-disc list-inside;
 }
 
+.toc ol li ol {
+  @apply list-disc list-inside mt-2 ml-8;
+}
+
 .font-mono {
   font-family: var(--font-mono), monospace, sans-serif;
 }
