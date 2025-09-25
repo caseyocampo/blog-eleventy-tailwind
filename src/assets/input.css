@@ -160,6 +160,11 @@ strong {
 
 /* Custom Style */
 
+/* Table of Contens */
+.toc ol {
+  @apply list-disc list-inside;
+}
+
 .font-mono {
   font-family: var(--font-mono), monospace, sans-serif;
 }

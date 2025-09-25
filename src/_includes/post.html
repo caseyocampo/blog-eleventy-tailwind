@@ -19,6 +19,10 @@ layout: "layout.html"
       <p>{{ description }}</p>
       {% endif %}
     </div>
+    <div class="post max-w-default mx-auto pb-14 sm:pb-24">
+      <h2>Table of Contents</h2>
+      {{ content | toc }}
+    </div>
     <div class="post max-w-default mx-auto pb-14 sm:pb-24">{{ content }}</div>
   </div>
 </article>

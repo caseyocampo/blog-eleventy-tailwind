@@ -19,6 +19,21 @@ module.exports = function (eleventyConfig) {
   });
   eleventyConfig.addPassthroughCopy({ "src/assets/fonts": "/assets/fonts" });
 
+  const pluginTOC = require("eleventy-plugin-nesting-toc");
+  eleventyConfig.addPlugin(pluginTOC);
+
+  // Example Markdown configuration (to add IDs to the headers)
+  const markdownIt = require("markdown-it");
+  const markdownItAnchor = require("markdown-it-anchor");
+  eleventyConfig.setLibrary(
+    "md",
+    markdownIt({
+      html: true,
+      linkify: true,
+      typographer: true,
+    }).use(markdownItAnchor, {})
+  );
+
   // minify HTML output
   eleventyConfig.addTransform("htmlmin", function (content) {
     if ((this.page.outputPath || "").endsWith(".html")) {
