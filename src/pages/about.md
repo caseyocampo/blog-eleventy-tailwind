@@ -14,7 +14,7 @@ When I’m not working my day job or coding side projects, I like to keep myself
 
 Presently, I work full-time and 100% remotely as a Senior Accessibility Engineer where I audit web pages and designs for WCAG 2.2 compliance.
 
-In addition to auditing, I also code accessibility fixes, guide teams through accessibility, and write documentation on workflow and accessibility topics.
+In addition to auditing, I also code front-end and accessibility remediation, guide teams through accessibility education, and write documentation on workflow and accessibility topics.
 
 As I continue my journey in this field, I find myself remaining curious about web accessibility, database work, and user experiences.
 
