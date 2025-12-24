@@ -6,7 +6,7 @@ tags: "page"
 permalink: "/about/"
 ---
 
-I work as a full-time Senior Accessibility Engineer working at WebstaurantStore. Check out my [accessibility and web development](/certifications/) certifications, [web projects](/projects/), and learnings I've shared online.
+I work as a full-time Senior Accessibility Engineer working at WebstaurantStore. Check out my [accessibility and web development certifications](/certifications/) and [web projects](/projects/).
 
 When I’m not working my day job or coding side projects, I like to keep myself active. My hobbies include reading, going to the gym, running, and playing guitar.
 
