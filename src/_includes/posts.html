@@ -15,6 +15,18 @@ layout: "layout.html"
     <h2 class="mb-20 text-4xl sm:text-6xl">All Posts</h2>
 
     <h2 class="font-mono mb-6 text-3xl" id="blog-year-2024">
+      <span class="sr-only">Posts from </span>2026
+    </h2>
+    {% assign all_posts_2026 = collections.post | reverse %}
+    <ul class="mb-24" aria-labelledby="blog-year-2024">
+      {% for post_2026 in all_posts_2026 %} {% assign year2026 = post_2026.date
+      | justYear:2026 %} {% if year2026 == "2026" %}
+      <li><a href="{{ post_2026.url }}">{{ post_2026.data.title }}</a></li>
+      {% endif %} {% endfor %}
+    </ul>
+    <!-- <h2 class="mb-20 text-4xl sm:text-6xl">All Posts</h2>
+
+    <h2 class="font-mono mb-6 text-3xl" id="blog-year-2024">
       <span class="sr-only">Posts from </span>2024
     </h2>
     {% assign all_posts_2024 = collections.post | reverse %}
@@ -23,7 +35,7 @@ layout: "layout.html"
       | justYear:2024 %} {% if year2024 == "2024" %}
       <li><a href="{{ post_2024.url }}">{{ post_2024.data.title }}</a></li>
       {% endif %} {% endfor %}
-    </ul>
+    </ul> -->
 
     <h2 class="font-mono mb-6 text-3xl" id="blog-year-2023">
       <span class="sr-only">Posts from </span>2023
@@ -47,7 +59,7 @@ layout: "layout.html"
       {% endif %} {% endfor %}
     </ul>
 
-    <h2 class="font-mono mb-6 text-3xl" id="blog-year-2021">
+    <!-- <h2 class="font-mono mb-6 text-3xl" id="blog-year-2021">
       <span class="sr-only">Posts from </span>2021
     </h2>
     {% assign all_posts_2021 = collections.post | reverse %}
@@ -56,7 +68,7 @@ layout: "layout.html"
       | justYear:2021 %} {% if year2021 == "2021" %}
       <li><a href="{{ post_2021.url }}">{{ post_2021.data.title }}</a></li>
       {% endif %} {% endfor %}
-    </ul>
+    </ul> -->
 
     <h2 class="font-mono mb-6 text-3xl" id="blog-year-2020">
       <span class="sr-only">Posts from </span>2020
@@ -68,7 +80,7 @@ layout: "layout.html"
       <li><a href="{{ post_2020.url }}">{{ post_2020.data.title }}</a></li>
       {% endif %} {% endfor %}
     </ul>
-
+    <!-- 
     <h2 class="font-mono mb-6 text-3xl" id="blog-year-2019">
       <span class="sr-only">Posts from </span>2019
     </h2>
@@ -78,6 +90,6 @@ layout: "layout.html"
       | justYear:2019 %} {% if year2019 == "2019" %}
       <li><a href="{{ post_2019.url }}">{{ post_2019.data.title }}</a></li>
       {% endif %} {% endfor %}
-    </ul>
+    </ul> -->
   </div>
 </section>

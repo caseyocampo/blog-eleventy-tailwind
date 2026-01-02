@@ -110,19 +110,16 @@ footer a:hover {
   @apply text-orange-800 dark:text-orange-400;
 }
 
-pre {
+/* pre {
   @apply mb-4 rounded-md p-4 inline-block w-full bg-stone-800 text-slate-100 overflow-x-scroll dark:bg-stone-900;
   font-family: var(--font-mono), monospace;
   -webkit-overflow-scrolling: touch;
-}
+} */
 
-pre code {
-  @apply text-2xl;
-}
-
-p code {
-  @apply inline-block text-2xl bg-stone-200 px-1 rounded-sm dark:bg-stone-700;
-  font-family: var(--font-mono), monospace;
+code {
+  @apply text-xl inline-block bg-stone-200 px-1 rounded-md dark:bg-stone-700;
+  font-family: monospace, sans-serif;
+  -webkit-overflow-scrolling: touch;
 }
 
 main ul,
