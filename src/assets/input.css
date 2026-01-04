@@ -125,7 +125,7 @@ code {
 
 main ul,
 article ul {
-  @apply list-outside list-disc ml-6 my-12;
+  @apply list-outside list-disc ml-6 my-8;
 }
 
 li::marker {
@@ -140,7 +140,7 @@ main p,
 main a,
 main li,
 footer li {
-  @apply mb-6 leading-snug;
+  @apply mb-5 leading-snug;
 }
 
 article img {
