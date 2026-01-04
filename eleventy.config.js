@@ -17,6 +17,9 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addPassthroughCopy({
     "src/posts/2024/img": "/posts/2024/img",
   });
+  eleventyConfig.addPassthroughCopy({
+    "src/posts/2026/img": "/posts/2026/img",
+  });
   eleventyConfig.addPassthroughCopy({ "src/assets/fonts": "/assets/fonts" });
 
   const pluginTOC = require("eleventy-plugin-nesting-toc");
