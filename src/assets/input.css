@@ -162,11 +162,11 @@ strong {
 
 /* Table of Contens */
 .toc ol {
-  @apply list-disc list-inside;
+  @apply list-disc list-outside ml-6;
 }
 
 .toc ol li ol {
-  @apply list-disc list-inside mt-2 ml-8;
+  @apply list-disc list-outside mt-2 ml-8;
 }
 
 .font-mono {
