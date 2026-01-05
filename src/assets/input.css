@@ -157,7 +157,7 @@ strong {
 
 /* Custom Style */
 .code-block {
-  @apply block overflow-scroll;
+  @apply block overflow-scroll mt-4;
 }
 
 /* Table of Contens */
