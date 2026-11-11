@@ -14,7 +14,7 @@ Step 3 - Build production environment
 
 ## 100's on all Lighthouse categories
 
-![lighthouse scores](/_site/img/lighthouse.png)
+<img src="https://www.caseyocampo.com/img/lighthouse.png" alt="lighthouse scores">
 
 ## About the tech used on this site
 
