@@ -6,7 +6,7 @@ Step 1 - Install npm
 
 Step 2 - Start local dev server
 
-`npm run serve`
+`npm run dev`
 
 Step 3 - Build production environment
 
@@ -14,7 +14,7 @@ Step 3 - Build production environment
 
 ## 100's on all Lighthouse categories
 
-![lighthouse scores](/src/assets/img/lighthouse.png)
+![lighthouse scores](/_site/img/lighthouse.png)
 
 ## About the tech used on this site
 
